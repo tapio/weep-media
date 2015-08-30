@@ -58,6 +58,17 @@
 			},
 			"geometry": "objects/barrel_metal/metal_barrel.obj"
 		},
+		"barrel_stainless_tess": {
+			"material": {
+				"shaderName": "nstess",
+				"diffuseMap": "objects/barrel_metal/diffuse_stainless_steel.jpg",
+				"normalMap": "objects/barrel_metal/normal_soft_bumps.jpg",
+				"specularMap": "objects/barrel_metal/specular_stainless_steel.jpg",
+				"tessellate": true,
+				"shininess": 32
+			},
+			"geometry": "objects/barrel_metal/metal_barrel.obj"
+		},
 		"barrel_fuel": {
 			"material": {
 				"shaderName": "nsmap",
@@ -193,8 +204,11 @@
 			"prefab": "barrel_stainless",
 			"position": [ 0, 0.5, -12 ]
 		},{
-			"prefab": "barrel_fuel",
+			"prefab": "barrel_stainless_tess",
 			"position": [ 0, 0.5, -11 ]
+		},{
+			"prefab": "barrel_fuel",
+			"position": [ 1, 0.5, -10 ]
 		},{
 			"prefab": "gas_tank",
 			"position": [ 1, 0.85, -12 ]
