@@ -203,24 +203,21 @@
 			"position": [ 0, 1.0, 0 ]
 		},{
 			"material": {
-				"shaderName": "nsmap",
-				"diffuseMap": "debug/uvtestgrid.png",
-				"specularMap": "debug/uvtestgrid_specular.png",
-				"normalMap": "debug/uvtestgrid_normal.png",
-				"heightMap": "debug/uvtestgrid.png",
-				"tessellate": false,
-				"ambient": [ 0.01, 0.01, 0.01 ],
+				"shaderName": "nsemap",
+				"diffuseMap": "textures/metal-colored-01.jpg",
+				"specularMap": "textures/specular/metal-colored-01.jpg",
+				"normalMap": "textures/normal/metal-colored-01.jpg",
+				"emissionMap": "textures/emission/metal-colored-01.png",
+				"-ambient": [ 0.01, 0.01, 0.01 ],
 				"shininess": 8
 			},
-			"geometry": {
-				"heightmap": "debug/uvtestgrid.png"
-			},
+			"geometry": "debug/plane.obj",
 			"body": {
 				"shape": "box",
 				"mass": 0
 			},
-			"position": [ 0, -0.5, -10 ],
-			"scale": [ 0.1, 1, 0.1 ]
+			"position": [ 0, -1, -10 ],
+			"scale": [ 15, 1, 15 ]
 		},{
 			"prefab": "pointlight",
 			"name": "light_01",
