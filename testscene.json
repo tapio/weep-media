@@ -208,7 +208,7 @@
 				"specularMap": "textures/specular/metal-colored-01.jpg",
 				"normalMap": "textures/normal/metal-colored-01.jpg",
 				"emissionMap": "textures/emission/metal-colored-01.png",
-				"-ambient": [ 0.01, 0.01, 0.01 ],
+				"ambient": [ 0.01, 0.01, 0.01 ],
 				"shininess": 8
 			},
 			"geometry": "debug/plane.obj",
