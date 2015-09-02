@@ -1,3 +1,5 @@
 {
+	"sunColor": [ 0.3, 0.3, 0.3 ],
+	"sunDirection": [ -10, -1, -10 ],
 	"skybox": "skyboxes/miramar/"
 }
