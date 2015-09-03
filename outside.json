@@ -141,19 +141,20 @@
 		},{
 			"material": {
 				"shaderName": "nsmap",
-				"diffuseMap": "textures/stone-01.jpg",
-				"specularMap": "textures/specular/stone-01.jpg",
-				"normalMap": "textures/normal/stone-01.jpg",
+				"diffuseMap": "textures/moss-01.jpg",
+				"specularMap": "textures/specular/moss-01.jpg",
+				"normalMap": "textures/normal/moss-01.jpg",
+				"uvRepeat": 20,
 				"ambient": [ 0.01, 0.01, 0.01 ],
 				"shininess": 32
 			},
-			"geometry": "debug/plane.obj",
+			"geometry": { "heightmap": "heightmap.png" },
 			"body": {
 				"shape": "box",
 				"mass": 0
 			},
-			"position": [ 0, 0, -10 ],
-			"scale": [ 15, 1, 15 ]
+			"position": [ 0, -0.5, -10 ],
+			"scale": [ 0.5, 1, 0.5 ]
 		},{
 			"prefab": "pointlight",
 			"name": "light_01",

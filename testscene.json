@@ -208,6 +208,7 @@
 				"specularMap": "textures/specular/metal-colored-01.jpg",
 				"normalMap": "textures/normal/metal-colored-01.jpg",
 				"emissionMap": "textures/emission/metal-colored-01.png",
+				"uvRepeat": 4,
 				"ambient": [ 0.01, 0.01, 0.01 ],
 				"shininess": 8
 			},
@@ -217,7 +218,7 @@
 				"mass": 0
 			},
 			"position": [ 0, -1, -10 ],
-			"scale": [ 15, 1, 15 ]
+			"scale": [ 25, 1, 25 ]
 		},{
 			"prefab": "pointlight",
 			"name": "light_01",
