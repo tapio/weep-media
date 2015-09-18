@@ -2,13 +2,7 @@
 	"include": "prefabs.json",
 	"objects": [
 		{
-			"name": "camera",
-			"geometry": "debug/cube.obj",
-			"body": {
-				"shape": "box",
-				"mass": 10
-			},
-			"position": [ 0, 1.0, 0 ]
+			"prefab": "camera",
 		},{
 			"material": {
 				"shaderName": "nsmap",

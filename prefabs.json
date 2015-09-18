@@ -1,6 +1,18 @@
 {
 	"include": "debugprefabs.json",
 	"prefabs": {
+		"camera": {
+			"name": "camera",
+			"geometry": "debug/cube.obj",
+			"body": {
+				"shape": "box",
+				"mass": 10,
+				"angularFactor": 0,
+				"noGravity": true,
+				"noSleep": true
+			},
+			"position": [ 0, 1.0, 0 ]
+		},
 		"gas_tank": {
 			"material": {
 				"shaderName": "nsmap",
