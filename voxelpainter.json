@@ -1,0 +1,68 @@
+{
+	"include": "prefabs.json",
+	"objects": [
+		{
+			"prefab": "camera",
+			"position": [0, 1, 0]
+		},{
+			"material": {
+				"shaderName": "nsmap",
+				"diffuseMap": "textures/metal-01.jpg",
+				"specularMap": "textures/specular/metal-01.jpg",
+				"normalMap": "textures/normal/metal-01.jpg",
+				"uvRepeat": 25,
+				"ambient": [ 0.01, 0.01, 0.01 ],
+				"shininess": 8
+			},
+			"geometry": "debug/plane.obj",
+			"body": {
+				"shape": "box",
+				"mass": 0
+			},
+			"position": [ 0, 0, 0 ],
+			"scale": [ 25, 1, 25 ]
+		},{
+			"prefab": "pointlight",
+			"light": {
+				"type": "point",
+				"color": [ 1.0, 1.0, 1.0 ],
+				"distance": 8,
+				"decay": 1
+			},
+			"position": [ -1, 2, 0 ]
+		},{
+			"prefab": "pointlight",
+			"light": {
+				"type": "point",
+				"color": [ 1.0, 1.0, 1.0 ],
+				"distance": 8,
+				"decay": 2
+			},
+			"position": [ 0, 2, -3 ]
+		},{
+			"prefab": "pointlight",
+			"light": {
+				"type": "point",
+				"color": [ 1.0, 1.0, 1.0 ],
+				"distance": 8,
+				"decay": 3
+			},
+			"position": [ -1.5, 3, 2 ]
+		},{
+			"material": {
+				"shaderName": "nsmap",
+				"diffuseMap": "textures/metal-02.jpg",
+				"specularMap": "textures/specular/metal-02.jpg",
+				"normalMap": "textures/normal/metal-02.jpg",
+				"ambient": [ 0.01, 0.01, 0.01 ],
+				"shininess": 8
+			},
+			"geometry": "voxelpainter.obj",
+			"DISABLEDbody": {
+				"shape": "box",
+				"mass": 0
+			},
+			"position": [ 0, 0, -10 ]
+		}
+	]
+}
