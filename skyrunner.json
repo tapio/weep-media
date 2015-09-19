@@ -1,0 +1,25 @@
+{
+	"include": "prefabs.json",
+	"objects": [
+		{
+			"prefab": "camera",
+			"position": [0, 6, 15]
+		},{
+			"material": {
+				"shaderName": "nsemap",
+				"diffuseMap": "textures/metal-worn-02.jpg",
+				"specularMap": "textures/specular/metal-worn-02.jpg",
+				"normalMap": "textures/normal/metal-worn-02.jpg",
+				"emissionMap": "textures/emission/metal-worn-02.png",
+				"ambient": [ 0.01, 0.01, 0.01 ],
+				"shininess": 8
+			},
+			"geometry": "skyrunner.obj",
+			"DISABLEDbody": {
+				"shape": "box",
+				"mass": 0
+			},
+			"position": [ 0, 0, -10 ]
+		}
+	]
+}
