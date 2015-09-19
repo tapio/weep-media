@@ -3,7 +3,10 @@
 	"objects": [
 		{
 			"prefab": "camera",
-			"position": [0, 6, 15]
+			"body": {
+				"noGravity": false
+			},
+			"position": [-0.5, 4.5, 4]
 		},{
 			"material": {
 				"shaderName": "nsemap",
@@ -15,8 +18,8 @@
 				"shininess": 8
 			},
 			"geometry": "skyrunner.obj",
-			"DISABLEDbody": {
-				"shape": "box",
+			"body": {
+				"shape": "trimesh",
 				"mass": 0
 			},
 			"position": [ 0, 0, -10 ]

@@ -5,12 +5,13 @@
 			"name": "camera",
 			"geometry": "debug/cube.obj",
 			"body": {
-				"shape": "box",
+				"shape": "sphere",
 				"mass": 10,
 				"angularFactor": 0,
 				"noGravity": true,
 				"noSleep": true
 			},
+			"scale": 0.5,
 			"position": [ 0, 1.0, 0 ]
 		},
 		"gas_tank": {
