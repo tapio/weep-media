@@ -13,6 +13,20 @@
 			"scale": 0.5,
 			"position": [ 0, 1.0, 0 ]
 		},
+		"rock-platform": {
+			"material": {
+				"shaderName": "nsmap",
+				"diffuseMap": "objects/rock-platform/prop_rocks_rocksgrass_001_col.jpg",
+				"normalMap": "objects/rock-platform/prop_rocks_rocksgrass_001_nor.jpg",
+				"specularMap": "objects/rock-platform/prop_rocks_rocksgrass_001_col.jpg",
+				"shininess": 1
+			},
+			"geometry": "objects/rock-platform/rock.obj",
+			"body": {
+				"shape": "trimesh",
+				"mass": 0
+			}
+		},
 		"gas_tank": {
 			"material": {
 				"shaderName": "nsmap",
