@@ -3,12 +3,11 @@
 	"prefabs": {
 		"camera": {
 			"name": "camera",
-			"geometry": "debug/cube.obj",
+			"geometry": "debug/sphere.obj",
 			"body": {
 				"shape": "sphere",
-				"mass": 10,
+				"mass": 100,
 				"angularFactor": 0,
-				"noGravity": true,
 				"noSleep": true
 			},
 			"scale": 0.5,
