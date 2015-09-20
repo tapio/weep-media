@@ -10,9 +10,10 @@
 				"specularMap": "textures/specular/metal-colored-01.jpg",
 				"normalMap": "textures/normal/metal-colored-01.jpg",
 				"emissionMap": "textures/emission/metal-colored-01.png",
-				"uvRepeat": 4,
+				"emissive": 1.0,
 				"ambient": [ 0.01, 0.01, 0.01 ],
-				"shininess": 8
+				"shininess": 8,
+				"uvRepeat": 4
 			},
 			"geometry": "debug/plane.obj",
 			"body": {
