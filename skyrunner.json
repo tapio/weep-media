@@ -17,6 +17,23 @@
 				"shape": "box",
 				"mass": 0
 			}
+		},
+		"goalblock": {
+			"material": {
+				"shaderName": "nsemap",
+				"diffuseMap": "textures/metal-colored-07.jpg",
+				"specularMap": "textures/specular/metal-colored-07.jpg",
+				"normalMap": "textures/normal/metal-colored-07.jpg",
+				"emissionMap": "textures/emission/metal-colored-07.jpg",
+				"emissive": 1.0,
+				"ambient": [ 0.01, 0.01, 0.01 ],
+				"shininess": 8
+			},
+			"geometry": "debug/cube.obj",
+			"body": {
+				"shape": "box",
+				"mass": 0
+			}
 		}
 	},
 	"objects": [
