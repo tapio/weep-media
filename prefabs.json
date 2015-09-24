@@ -3,14 +3,14 @@
 	"prefabs": {
 		"camera": {
 			"name": "camera",
-			"geometry": "debug/sphere.obj",
+			"geometry": "debug/cube.obj",
 			"body": {
-				"shape": "sphere",
+				"shape": "capsule",
 				"mass": 100,
 				"angularFactor": 0,
 				"noSleep": true
 			},
-			"scale": 0.5,
+			"scale": [ 0.4, 1.5, 0.4 ],
 			"position": [ 0, 1.0, 0 ]
 		},
 		"rock-platform": {
