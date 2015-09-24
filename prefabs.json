@@ -37,7 +37,7 @@
 			},
 			"geometry": "objects/gas_tank/gas_tank.obj",
 			"body": {
-				"shape": "sphere",
+				"shape": "cylinder",
 				"mass": 100
 			}
 		},
@@ -51,7 +51,7 @@
 			},
 			"geometry": "objects/barrel_metal/metal_barrel.obj",
 			"body": {
-				"shape": "box",
+				"shape": "cylinder",
 				"mass": 50
 			}
 		},
@@ -65,7 +65,7 @@
 			},
 			"geometry": "objects/barrel_metal/metal_barrel.obj",
 			"body": {
-				"shape": "box",
+				"shape": "cylinder",
 				"mass": 50
 			}
 		},
@@ -79,7 +79,7 @@
 			},
 			"geometry": "objects/barrel_metal/metal_barrel.obj",
 			"body": {
-				"shape": "box",
+				"shape": "cylinder",
 				"mass": 50
 			}
 		},
@@ -93,7 +93,7 @@
 			},
 			"geometry": "objects/barrel_metal/metal_barrel.obj",
 			"body": {
-				"shape": "box",
+				"shape": "cylinder",
 				"mass": 50
 			}
 		},
@@ -108,7 +108,7 @@
 			},
 			"geometry": "objects/barrel_metal/metal_barrel.obj",
 			"body": {
-				"shape": "box",
+				"shape": "cylinder",
 				"mass": 50
 			}
 		},
@@ -122,7 +122,7 @@
 			},
 			"geometry": "objects/barrel_fuel/fuel_barrel.obj",
 			"body": {
-				"shape": "box",
+				"shape": "cylinder",
 				"mass": 50
 			}
 		},
@@ -136,7 +136,7 @@
 			},
 			"geometry": "objects/barrel_wood/big_wood_barrel.obj",
 			"body": {
-				"shape": "box",
+				"shape": "cylinder",
 				"mass": 50
 			}
 		},
@@ -178,7 +178,7 @@
 			},
 			"geometry": "objects/rock_02/rock_02.obj",
 			"body": {
-				"shape": "sphere",
+				"shape": "box",
 				"mass": 100
 			}
 		},
@@ -192,7 +192,7 @@
 			},
 			"geometry": "objects/rock_03/rock_03.obj",
 			"body": {
-				"shape": "sphere",
+				"shape": "box",
 				"mass": 100
 			}
 		},
@@ -206,7 +206,7 @@
 			},
 			"geometry": "objects/rock_04/rock_04.obj",
 			"body": {
-				"shape": "sphere",
+				"shape": "box",
 				"mass": 100
 			}
 		},
