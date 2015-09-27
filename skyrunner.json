@@ -1,7 +1,7 @@
 {
 	"include": "prefabs.json",
 	"prefabs": {
-		"skyblock": {
+		"skyblock1": {
 			"material": {
 				"shaderName": "nsemap",
 				"diffuseMap": "textures/metal-worn-02.jpg",
@@ -9,6 +9,36 @@
 				"normalMap": "textures/normal/metal-worn-02.jpg",
 				"emissionMap": "textures/emission/metal-worn-02.png",
 				"emissive": 1.0,
+				"ambient": [ 0.01, 0.01, 0.01 ],
+				"shininess": 8
+			},
+			"geometry": "debug/cube.obj",
+			"body": {
+				"shape": "box",
+				"mass": 0
+			}
+		},
+		"skyblock2": {
+			"material": {
+				"shaderName": "nsmap",
+				"diffuseMap": "textures/metal-colored-02.jpg",
+				"specularMap": "textures/specular/metal-colored-02.jpg",
+				"normalMap": "textures/normal/metal-colored-02.jpg",
+				"ambient": [ 0.01, 0.01, 0.01 ],
+				"shininess": 8
+			},
+			"geometry": "debug/cube.obj",
+			"body": {
+				"shape": "box",
+				"mass": 0
+			}
+		},
+		"skyblock3": {
+			"material": {
+				"shaderName": "nsmap",
+				"diffuseMap": "textures/metal-colored-09.jpg",
+				"specularMap": "textures/specular/metal-colored-09.jpg",
+				"normalMap": "textures/normal/metal-colored-09.jpg",
 				"ambient": [ 0.01, 0.01, 0.01 ],
 				"shininess": 8
 			},
