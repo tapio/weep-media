@@ -1,5 +1,5 @@
 {
-	"include": "prefabs.json",
+	"include": [ "prefabs.json", "environment.json" ],
 	"objects": [
 		{
 			"prefab": "camera",
