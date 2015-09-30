@@ -1,5 +1,11 @@
 {
 	"include": "prefabs.json",
+	"fonts": {
+		"skyrunner_big": {
+			"path": "fonts/Orbitron-Black.ttf",
+			"size": 48
+		}
+	},
 	"prefabs": {
 		"skyblock1": {
 			"material": {
