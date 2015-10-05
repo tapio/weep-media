@@ -6,6 +6,18 @@
 			"size": 48
 		}
 	},
+	"sounds": {
+		"walk": [
+			"sounds/footsteps-on-metal/footstep-on-metal-01.ogg",
+			"sounds/footsteps-on-metal/footstep-on-metal-02.ogg",
+			"sounds/footsteps-on-metal/footstep-on-metal-03.ogg",
+			"sounds/footsteps-on-metal/footstep-on-metal-04.ogg",
+			"sounds/footsteps-on-metal/footstep-on-metal-05.ogg",
+			"sounds/footsteps-on-metal/footstep-on-metal-06.ogg",
+			"sounds/footsteps-on-metal/footstep-on-metal-07.ogg",
+			"sounds/footsteps-on-metal/footstep-on-metal-08.ogg"
+		]
+	},
 	"prefabs": {
 		"skyblock1": {
 			"material": {
