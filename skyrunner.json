@@ -7,7 +7,7 @@
 		}
 	},
 	"sounds": {
-		"walk": [
+		"walk-metal": [
 			"sounds/footsteps-on-metal/footstep-on-metal-01.ogg",
 			"sounds/footsteps-on-metal/footstep-on-metal-02.ogg",
 			"sounds/footsteps-on-metal/footstep-on-metal-03.ogg",
@@ -105,7 +105,11 @@
 	"objects": [
 		{
 			"prefab": "camera",
-			"position": [0, 1, 0]
+			"position": [0, 1, 0],
+			"movesound": {
+				"event": "walk-metal",
+				"step": 0.8
+			}
 		}
 	]
 }

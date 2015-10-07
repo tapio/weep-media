@@ -1,8 +1,24 @@
 {
 	"include": [ "prefabs.json", "environment.json" ],
+	"sounds": {
+		"walk-metal": [
+			"sounds/footsteps-on-metal/footstep-on-metal-01.ogg",
+			"sounds/footsteps-on-metal/footstep-on-metal-02.ogg",
+			"sounds/footsteps-on-metal/footstep-on-metal-03.ogg",
+			"sounds/footsteps-on-metal/footstep-on-metal-04.ogg",
+			"sounds/footsteps-on-metal/footstep-on-metal-05.ogg",
+			"sounds/footsteps-on-metal/footstep-on-metal-06.ogg",
+			"sounds/footsteps-on-metal/footstep-on-metal-07.ogg",
+			"sounds/footsteps-on-metal/footstep-on-metal-08.ogg"
+		]
+	},
 	"objects": [
 		{
-			"prefab": "camera"
+			"prefab": "camera",
+			"movesound": {
+				"event": "walk-metal",
+				"step": 1.0
+			}
 		},{
 			"material": {
 				"shaderName": "nsemap",
