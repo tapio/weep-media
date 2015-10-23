@@ -4,6 +4,10 @@
 		"skyrunner_big": {
 			"path": "fonts/Orbitron-Black.ttf",
 			"size": 48
+		},
+		"skyrunner_menu": {
+			"path": "fonts/Orbitron-Black.ttf",
+			"size": 24
 		}
 	},
 	"sounds": {
