@@ -1,5 +1,6 @@
 {
 	"include": [ "prefabs.json", "environment.json" ],
+	"modules": [ "skyrunner" ],
 	"fonts": {
 		"skyrunner_big": {
 			"path": "fonts/Orbitron-Black.ttf",
