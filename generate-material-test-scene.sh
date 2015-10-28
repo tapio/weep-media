@@ -4,18 +4,14 @@ FILE="`pwd`/materialscene.json"
 
 cat << EOF > "$FILE"
 {
-	"prefabs": {
-		"pointlight": {
-			"material": {
-				"shaderName": "color",
-				"ambient": 1.0
-			},
-			"geometry": "debug/sphere.obj",
-			"scale": 0.1
-		}
-	},
+	"include": [ "prefabs.json", "environment.json" ],
 	"objects": [
 	{
+		"prefab": "camera",
+		"body": {
+			"noGravity": true
+		}
+	},{
 EOF
 
 cd textures
