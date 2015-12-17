@@ -216,7 +216,8 @@
 				"diffuseMap": "objects/bush_01/diffuse.png",
 				"normalMap": "objects/bush_01/normal.jpg",
 				"specularMap": "objects/bush_01/specular.jpg",
-				"shininess": 32
+				"shininess": 32,
+				"alphaTest": true
 			},
 			"geometry": "objects/bush_01/bush_01.obj"
 		},
@@ -226,7 +227,8 @@
 				"diffuseMap": "objects/bush_02/diffuse.png",
 				"normalMap": "objects/bush_02/normal.jpg",
 				"specularMap": "objects/bush_02/specular.jpg",
-				"shininess": 32
+				"shininess": 32,
+				"alphaTest": true
 			},
 			"geometry": "objects/bush_02/bush_02.obj"
 		},
@@ -236,7 +238,8 @@
 				"diffuseMap": "objects/bush_03/diffuse.png",
 				"normalMap": "objects/bush_03/normal.jpg",
 				"specularMap": "objects/bush_03/specular.jpg",
-				"shininess": 32
+				"shininess": 32,
+				"alphaTest": true
 			},
 			"geometry": "objects/bush_03/bush_03.obj"
 		},
@@ -246,7 +249,8 @@
 				"diffuseMap": "objects/bush_04/diffuse.png",
 				"normalMap": "objects/bush_04/normal.jpg",
 				"specularMap": "objects/bush_04/specular.jpg",
-				"shininess": 32
+				"shininess": 32,
+				"alphaTest": true
 			},
 			"geometry": "objects/bush_04/bush_04.obj"
 		},
@@ -256,7 +260,8 @@
 				"diffuseMap": "objects/bush_05/diffuse.png",
 				"normalMap": "objects/bush_05/normal.jpg",
 				"specularMap": "objects/bush_05/specular.jpg",
-				"shininess": 32
+				"shininess": 32,
+				"alphaTest": true
 			},
 			"geometry": "objects/bush_05/bush_05.obj"
 		}
