@@ -1,0 +1,46 @@
+{
+	"include": [ "prefabs.json", "environment.json" ],
+	"objects": [
+		{
+			"prefab": "camera",
+			"position": [1, 0, 5]
+		},{
+			"material": {
+				"shaderName": "nsmap",
+				"diffuseMap": "textures/metal-colored-04.jpg",
+				"specularMap": "textures/specular/metal-colored-04.jpg",
+				"normalMap": "textures/normal/metal-colored-04.jpg",
+				"ambient": [ 0.01, 0.01, 0.01 ],
+				"shininess": 8,
+				"uvRepeat": 25
+			},
+			"geometry": "debug/plane.obj",
+			"body": {
+				"shape": "box",
+				"mass": 0
+			},
+			"position": [ 0, -2, -5 ],
+			"scale": [ 50, 1, 50 ]
+		},{
+			"name": "animtest",
+			"material": [{
+				"shaderName": "anim",
+				"diffuseMap": "objects/robot/diffuse_bottom.png",
+				"diffuse": 1.0,
+				"animated": true
+			},{
+				"shaderName": "anim",
+				"diffuseMap": "objects/robot/diffuse_top.png",
+				"diffuse": 1.0,
+				"animated": true
+			},{
+				"shaderName": "anim",
+				"diffuseMap": "objects/robot/diffuse_top.png",
+				"diffuse": 1.0,
+				"animated": true
+			}],
+			"geometry": "objects/robot/robot.iqm",
+			"position": [ -2, 0.1, -5 ]
+		}
+	]
+}
