@@ -25,15 +25,21 @@
 			"name": "animtest",
 			"material": [{
 				"diffuseMap": "objects/robot/diffuse_bottom.png",
+				"specularMap": "objects/robot/specular_bottom.png",
 				"diffuse": 1.0,
+				"specular": 1.0,
 				"animated": true
 			},{
 				"diffuseMap": "objects/robot/diffuse_top.png",
+				"specularMap": "objects/robot/specular_top.png",
 				"diffuse": 1.0,
+				"specular": 1.0,
 				"animated": true
 			},{
 				"diffuseMap": "objects/robot/diffuse_top.png",
+				"specularMap": "objects/robot/specular_top.png",
 				"diffuse": 1.0,
+				"specular": 1.0,
 				"animated": true
 			}],
 			"geometry": "objects/robot/robot.iqm",
