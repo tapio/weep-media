@@ -21,7 +21,6 @@
 			}
 		},{
 			"material": {
-				"shaderName": "nsemap",
 				"diffuseMap": "textures/metal-colored-01.jpg",
 				"specularMap": "textures/specular/metal-colored-01.jpg",
 				"normalMap": "textures/normal/metal-colored-01.jpg",

@@ -24,17 +24,14 @@
 		},{
 			"name": "animtest",
 			"material": [{
-				"shaderName": "anim",
 				"diffuseMap": "objects/robot/diffuse_bottom.png",
 				"diffuse": 1.0,
 				"animated": true
 			},{
-				"shaderName": "anim",
 				"diffuseMap": "objects/robot/diffuse_top.png",
 				"diffuse": 1.0,
 				"animated": true
 			},{
-				"shaderName": "anim",
 				"diffuseMap": "objects/robot/diffuse_top.png",
 				"diffuse": 1.0,
 				"animated": true
