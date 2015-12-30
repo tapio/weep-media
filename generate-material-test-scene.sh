@@ -16,15 +16,26 @@ EOF
 
 cd textures
 X=0
-Y=0
+Y=-12
 
 for i in `ls *.jpg`; do
 	cat << EOF >> "$FILE"
 		"material": {
-			"shaderName": "nsmap",
 			"diffuseMap": "textures/$i",
 			"specularMap": "textures/specular/$i",
 			"normalMap": "textures/normal/$i",
+EOF
+	# Handle emission map if exists
+	emimap="${i%.*}"
+	emimap=`ls "emission/$emimap."* 2>/dev/null`
+	if [ $? -eq 0 ]; then
+		cat << EOF >> "$FILE"
+			"emissionMap": "textures/$emimap",
+			"emissive": 0.75,
+EOF
+	fi
+
+cat << EOF >> "$FILE"
 			"uvRepeat": 2
 		},
 		"geometry": "debug/plane.obj",

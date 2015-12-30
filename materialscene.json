@@ -8,509 +8,471 @@
 		}
 	},{
 		"material": {
-			"shaderName": "nsmap",
 			"diffuseMap": "textures/grass-01.jpg",
 			"specularMap": "textures/specular/grass-01.jpg",
 			"normalMap": "textures/normal/grass-01.jpg",
 			"uvRepeat": 2
 		},
 		"geometry": "debug/plane.obj",
-		"position": [ 0, 0, 0 ],
+		"position": [ 0, 0, -12 ],
 		"scale": 2
 	},{
 		"material": {
-			"shaderName": "nsmap",
 			"diffuseMap": "textures/grass-02.jpg",
 			"specularMap": "textures/specular/grass-02.jpg",
 			"normalMap": "textures/normal/grass-02.jpg",
 			"uvRepeat": 2
 		},
 		"geometry": "debug/plane.obj",
-		"position": [ 2, 0, 0 ],
+		"position": [ 2, 0, -12 ],
 		"scale": 2
 	},{
 		"material": {
-			"shaderName": "nsmap",
 			"diffuseMap": "textures/grass-03.jpg",
 			"specularMap": "textures/specular/grass-03.jpg",
 			"normalMap": "textures/normal/grass-03.jpg",
 			"uvRepeat": 2
 		},
 		"geometry": "debug/plane.obj",
-		"position": [ 4, 0, 0 ],
+		"position": [ 4, 0, -12 ],
 		"scale": 2
 	},{
 		"material": {
-			"shaderName": "nsmap",
 			"diffuseMap": "textures/grass-04.jpg",
 			"specularMap": "textures/specular/grass-04.jpg",
 			"normalMap": "textures/normal/grass-04.jpg",
 			"uvRepeat": 2
 		},
 		"geometry": "debug/plane.obj",
-		"position": [ 6, 0, 0 ],
+		"position": [ 6, 0, -12 ],
 		"scale": 2
 	},{
 		"material": {
-			"shaderName": "nsmap",
 			"diffuseMap": "textures/metal-01.jpg",
 			"specularMap": "textures/specular/metal-01.jpg",
 			"normalMap": "textures/normal/metal-01.jpg",
 			"uvRepeat": 2
 		},
 		"geometry": "debug/plane.obj",
-		"position": [ 8, 0, 0 ],
+		"position": [ 8, 0, -12 ],
 		"scale": 2
 	},{
 		"material": {
-			"shaderName": "nsmap",
 			"diffuseMap": "textures/metal-02.jpg",
 			"specularMap": "textures/specular/metal-02.jpg",
 			"normalMap": "textures/normal/metal-02.jpg",
 			"uvRepeat": 2
 		},
 		"geometry": "debug/plane.obj",
-		"position": [ 10, 0, 0 ],
+		"position": [ 10, 0, -12 ],
 		"scale": 2
 	},{
 		"material": {
-			"shaderName": "nsmap",
 			"diffuseMap": "textures/metal-03.jpg",
 			"specularMap": "textures/specular/metal-03.jpg",
 			"normalMap": "textures/normal/metal-03.jpg",
 			"uvRepeat": 2
 		},
 		"geometry": "debug/plane.obj",
-		"position": [ 12, 0, 0 ],
+		"position": [ 12, 0, -12 ],
 		"scale": 2
 	},{
 		"material": {
-			"shaderName": "nsmap",
 			"diffuseMap": "textures/metal-bumps-01.jpg",
 			"specularMap": "textures/specular/metal-bumps-01.jpg",
 			"normalMap": "textures/normal/metal-bumps-01.jpg",
 			"uvRepeat": 2
 		},
 		"geometry": "debug/plane.obj",
-		"position": [ 14, 0, 0 ],
+		"position": [ 14, 0, -12 ],
 		"scale": 2
 	},{
 		"material": {
-			"shaderName": "nsmap",
 			"diffuseMap": "textures/metal-bumps-02.jpg",
 			"specularMap": "textures/specular/metal-bumps-02.jpg",
 			"normalMap": "textures/normal/metal-bumps-02.jpg",
 			"uvRepeat": 2
 		},
 		"geometry": "debug/plane.obj",
-		"position": [ 0, 0, 2 ],
+		"position": [ 0, 0, -10 ],
 		"scale": 2
 	},{
 		"material": {
-			"shaderName": "nsmap",
 			"diffuseMap": "textures/metal-bumps-03.jpg",
 			"specularMap": "textures/specular/metal-bumps-03.jpg",
 			"normalMap": "textures/normal/metal-bumps-03.jpg",
 			"uvRepeat": 2
 		},
 		"geometry": "debug/plane.obj",
-		"position": [ 2, 0, 2 ],
+		"position": [ 2, 0, -10 ],
 		"scale": 2
 	},{
 		"material": {
-			"shaderName": "nsmap",
 			"diffuseMap": "textures/metal-colored-01.jpg",
 			"specularMap": "textures/specular/metal-colored-01.jpg",
 			"normalMap": "textures/normal/metal-colored-01.jpg",
+			"emissionMap": "textures/emission/metal-colored-01.png",
+			"emissive": 0.75,
 			"uvRepeat": 2
 		},
 		"geometry": "debug/plane.obj",
-		"position": [ 4, 0, 2 ],
+		"position": [ 4, 0, -10 ],
 		"scale": 2
 	},{
 		"material": {
-			"shaderName": "nsmap",
 			"diffuseMap": "textures/metal-colored-02.jpg",
 			"specularMap": "textures/specular/metal-colored-02.jpg",
 			"normalMap": "textures/normal/metal-colored-02.jpg",
 			"uvRepeat": 2
 		},
 		"geometry": "debug/plane.obj",
-		"position": [ 6, 0, 2 ],
+		"position": [ 6, 0, -10 ],
 		"scale": 2
 	},{
 		"material": {
-			"shaderName": "nsmap",
 			"diffuseMap": "textures/metal-colored-03.jpg",
 			"specularMap": "textures/specular/metal-colored-03.jpg",
 			"normalMap": "textures/normal/metal-colored-03.jpg",
 			"uvRepeat": 2
 		},
 		"geometry": "debug/plane.obj",
-		"position": [ 8, 0, 2 ],
+		"position": [ 8, 0, -10 ],
 		"scale": 2
 	},{
 		"material": {
-			"shaderName": "nsmap",
 			"diffuseMap": "textures/metal-colored-04.jpg",
 			"specularMap": "textures/specular/metal-colored-04.jpg",
 			"normalMap": "textures/normal/metal-colored-04.jpg",
 			"uvRepeat": 2
 		},
 		"geometry": "debug/plane.obj",
-		"position": [ 10, 0, 2 ],
+		"position": [ 10, 0, -10 ],
 		"scale": 2
 	},{
 		"material": {
-			"shaderName": "nsmap",
 			"diffuseMap": "textures/metal-colored-05.jpg",
 			"specularMap": "textures/specular/metal-colored-05.jpg",
 			"normalMap": "textures/normal/metal-colored-05.jpg",
 			"uvRepeat": 2
 		},
 		"geometry": "debug/plane.obj",
-		"position": [ 12, 0, 2 ],
+		"position": [ 12, 0, -10 ],
 		"scale": 2
 	},{
 		"material": {
-			"shaderName": "nsmap",
 			"diffuseMap": "textures/metal-colored-06.jpg",
 			"specularMap": "textures/specular/metal-colored-06.jpg",
 			"normalMap": "textures/normal/metal-colored-06.jpg",
 			"uvRepeat": 2
 		},
 		"geometry": "debug/plane.obj",
-		"position": [ 14, 0, 2 ],
+		"position": [ 14, 0, -10 ],
 		"scale": 2
 	},{
 		"material": {
-			"shaderName": "nsmap",
 			"diffuseMap": "textures/metal-colored-07.jpg",
 			"specularMap": "textures/specular/metal-colored-07.jpg",
 			"normalMap": "textures/normal/metal-colored-07.jpg",
+			"emissionMap": "textures/emission/metal-colored-07.jpg",
+			"emissive": 0.75,
 			"uvRepeat": 2
 		},
 		"geometry": "debug/plane.obj",
-		"position": [ 0, 0, 4 ],
+		"position": [ 0, 0, -8 ],
 		"scale": 2
 	},{
 		"material": {
-			"shaderName": "nsmap",
 			"diffuseMap": "textures/metal-colored-08.jpg",
 			"specularMap": "textures/specular/metal-colored-08.jpg",
 			"normalMap": "textures/normal/metal-colored-08.jpg",
+			"emissionMap": "textures/emission/metal-colored-08.png",
+			"emissive": 0.75,
 			"uvRepeat": 2
 		},
 		"geometry": "debug/plane.obj",
-		"position": [ 2, 0, 4 ],
+		"position": [ 2, 0, -8 ],
 		"scale": 2
 	},{
 		"material": {
-			"shaderName": "nsmap",
 			"diffuseMap": "textures/metal-colored-09.jpg",
 			"specularMap": "textures/specular/metal-colored-09.jpg",
 			"normalMap": "textures/normal/metal-colored-09.jpg",
 			"uvRepeat": 2
 		},
 		"geometry": "debug/plane.obj",
-		"position": [ 4, 0, 4 ],
+		"position": [ 4, 0, -8 ],
 		"scale": 2
 	},{
 		"material": {
-			"shaderName": "nsmap",
 			"diffuseMap": "textures/metal-corrugated-01.jpg",
 			"specularMap": "textures/specular/metal-corrugated-01.jpg",
 			"normalMap": "textures/normal/metal-corrugated-01.jpg",
 			"uvRepeat": 2
 		},
 		"geometry": "debug/plane.obj",
-		"position": [ 6, 0, 4 ],
+		"position": [ 6, 0, -8 ],
 		"scale": 2
 	},{
 		"material": {
-			"shaderName": "nsmap",
 			"diffuseMap": "textures/metal-corrugated-02.jpg",
 			"specularMap": "textures/specular/metal-corrugated-02.jpg",
 			"normalMap": "textures/normal/metal-corrugated-02.jpg",
 			"uvRepeat": 2
 		},
 		"geometry": "debug/plane.obj",
-		"position": [ 8, 0, 4 ],
+		"position": [ 8, 0, -8 ],
 		"scale": 2
 	},{
 		"material": {
-			"shaderName": "nsmap",
 			"diffuseMap": "textures/metal-worn-01.jpg",
 			"specularMap": "textures/specular/metal-worn-01.jpg",
 			"normalMap": "textures/normal/metal-worn-01.jpg",
 			"uvRepeat": 2
 		},
 		"geometry": "debug/plane.obj",
-		"position": [ 10, 0, 4 ],
+		"position": [ 10, 0, -8 ],
 		"scale": 2
 	},{
 		"material": {
-			"shaderName": "nsmap",
 			"diffuseMap": "textures/metal-worn-02.jpg",
 			"specularMap": "textures/specular/metal-worn-02.jpg",
 			"normalMap": "textures/normal/metal-worn-02.jpg",
+			"emissionMap": "textures/emission/metal-worn-02.png",
+			"emissive": 0.75,
 			"uvRepeat": 2
 		},
 		"geometry": "debug/plane.obj",
-		"position": [ 12, 0, 4 ],
+		"position": [ 12, 0, -8 ],
 		"scale": 2
 	},{
 		"material": {
-			"shaderName": "nsmap",
 			"diffuseMap": "textures/moss-01.jpg",
 			"specularMap": "textures/specular/moss-01.jpg",
 			"normalMap": "textures/normal/moss-01.jpg",
 			"uvRepeat": 2
 		},
 		"geometry": "debug/plane.obj",
-		"position": [ 14, 0, 4 ],
+		"position": [ 14, 0, -8 ],
 		"scale": 2
 	},{
 		"material": {
-			"shaderName": "nsmap",
 			"diffuseMap": "textures/moss-02.jpg",
 			"specularMap": "textures/specular/moss-02.jpg",
 			"normalMap": "textures/normal/moss-02.jpg",
 			"uvRepeat": 2
 		},
 		"geometry": "debug/plane.obj",
-		"position": [ 0, 0, 6 ],
+		"position": [ 0, 0, -6 ],
 		"scale": 2
 	},{
 		"material": {
-			"shaderName": "nsmap",
 			"diffuseMap": "textures/rock-01.jpg",
 			"specularMap": "textures/specular/rock-01.jpg",
 			"normalMap": "textures/normal/rock-01.jpg",
 			"uvRepeat": 2
 		},
 		"geometry": "debug/plane.obj",
-		"position": [ 2, 0, 6 ],
+		"position": [ 2, 0, -6 ],
 		"scale": 2
 	},{
 		"material": {
-			"shaderName": "nsmap",
 			"diffuseMap": "textures/rock-02.jpg",
 			"specularMap": "textures/specular/rock-02.jpg",
 			"normalMap": "textures/normal/rock-02.jpg",
 			"uvRepeat": 2
 		},
 		"geometry": "debug/plane.obj",
-		"position": [ 4, 0, 6 ],
+		"position": [ 4, 0, -6 ],
 		"scale": 2
 	},{
 		"material": {
-			"shaderName": "nsmap",
 			"diffuseMap": "textures/rock-03.jpg",
 			"specularMap": "textures/specular/rock-03.jpg",
 			"normalMap": "textures/normal/rock-03.jpg",
 			"uvRepeat": 2
 		},
 		"geometry": "debug/plane.obj",
-		"position": [ 6, 0, 6 ],
+		"position": [ 6, 0, -6 ],
 		"scale": 2
 	},{
 		"material": {
-			"shaderName": "nsmap",
 			"diffuseMap": "textures/rock-04.jpg",
 			"specularMap": "textures/specular/rock-04.jpg",
 			"normalMap": "textures/normal/rock-04.jpg",
 			"uvRepeat": 2
 		},
 		"geometry": "debug/plane.obj",
-		"position": [ 8, 0, 6 ],
+		"position": [ 8, 0, -6 ],
 		"scale": 2
 	},{
 		"material": {
-			"shaderName": "nsmap",
 			"diffuseMap": "textures/rock-05.jpg",
 			"specularMap": "textures/specular/rock-05.jpg",
 			"normalMap": "textures/normal/rock-05.jpg",
 			"uvRepeat": 2
 		},
 		"geometry": "debug/plane.obj",
-		"position": [ 10, 0, 6 ],
+		"position": [ 10, 0, -6 ],
 		"scale": 2
 	},{
 		"material": {
-			"shaderName": "nsmap",
 			"diffuseMap": "textures/sand-01.jpg",
 			"specularMap": "textures/specular/sand-01.jpg",
 			"normalMap": "textures/normal/sand-01.jpg",
 			"uvRepeat": 2
 		},
 		"geometry": "debug/plane.obj",
-		"position": [ 12, 0, 6 ],
+		"position": [ 12, 0, -6 ],
 		"scale": 2
 	},{
 		"material": {
-			"shaderName": "nsmap",
 			"diffuseMap": "textures/sand-02.jpg",
 			"specularMap": "textures/specular/sand-02.jpg",
 			"normalMap": "textures/normal/sand-02.jpg",
 			"uvRepeat": 2
 		},
 		"geometry": "debug/plane.obj",
-		"position": [ 14, 0, 6 ],
+		"position": [ 14, 0, -6 ],
 		"scale": 2
 	},{
 		"material": {
-			"shaderName": "nsmap",
 			"diffuseMap": "textures/sand-03.jpg",
 			"specularMap": "textures/specular/sand-03.jpg",
 			"normalMap": "textures/normal/sand-03.jpg",
 			"uvRepeat": 2
 		},
 		"geometry": "debug/plane.obj",
-		"position": [ 0, 0, 8 ],
+		"position": [ 0, 0, -4 ],
 		"scale": 2
 	},{
 		"material": {
-			"shaderName": "nsmap",
 			"diffuseMap": "textures/sand-04.jpg",
 			"specularMap": "textures/specular/sand-04.jpg",
 			"normalMap": "textures/normal/sand-04.jpg",
 			"uvRepeat": 2
 		},
 		"geometry": "debug/plane.obj",
-		"position": [ 2, 0, 8 ],
+		"position": [ 2, 0, -4 ],
 		"scale": 2
 	},{
 		"material": {
-			"shaderName": "nsmap",
 			"diffuseMap": "textures/stone-01.jpg",
 			"specularMap": "textures/specular/stone-01.jpg",
 			"normalMap": "textures/normal/stone-01.jpg",
 			"uvRepeat": 2
 		},
 		"geometry": "debug/plane.obj",
-		"position": [ 4, 0, 8 ],
+		"position": [ 4, 0, -4 ],
 		"scale": 2
 	},{
 		"material": {
-			"shaderName": "nsmap",
 			"diffuseMap": "textures/stone-02.jpg",
 			"specularMap": "textures/specular/stone-02.jpg",
 			"normalMap": "textures/normal/stone-02.jpg",
 			"uvRepeat": 2
 		},
 		"geometry": "debug/plane.obj",
-		"position": [ 6, 0, 8 ],
+		"position": [ 6, 0, -4 ],
 		"scale": 2
 	},{
 		"material": {
-			"shaderName": "nsmap",
 			"diffuseMap": "textures/stone-03.jpg",
 			"specularMap": "textures/specular/stone-03.jpg",
 			"normalMap": "textures/normal/stone-03.jpg",
 			"uvRepeat": 2
 		},
 		"geometry": "debug/plane.obj",
-		"position": [ 8, 0, 8 ],
+		"position": [ 8, 0, -4 ],
 		"scale": 2
 	},{
 		"material": {
-			"shaderName": "nsmap",
 			"diffuseMap": "textures/stone-floor-01.jpg",
 			"specularMap": "textures/specular/stone-floor-01.jpg",
 			"normalMap": "textures/normal/stone-floor-01.jpg",
 			"uvRepeat": 2
 		},
 		"geometry": "debug/plane.obj",
-		"position": [ 10, 0, 8 ],
+		"position": [ 10, 0, -4 ],
 		"scale": 2
 	},{
 		"material": {
-			"shaderName": "nsmap",
 			"diffuseMap": "textures/stone-floor-02.jpg",
 			"specularMap": "textures/specular/stone-floor-02.jpg",
 			"normalMap": "textures/normal/stone-floor-02.jpg",
 			"uvRepeat": 2
 		},
 		"geometry": "debug/plane.obj",
-		"position": [ 12, 0, 8 ],
+		"position": [ 12, 0, -4 ],
 		"scale": 2
 	},{
 		"material": {
-			"shaderName": "nsmap",
 			"diffuseMap": "textures/stone-floor-03.jpg",
 			"specularMap": "textures/specular/stone-floor-03.jpg",
 			"normalMap": "textures/normal/stone-floor-03.jpg",
 			"uvRepeat": 2
 		},
 		"geometry": "debug/plane.obj",
-		"position": [ 14, 0, 8 ],
+		"position": [ 14, 0, -4 ],
 		"scale": 2
 	},{
 		"material": {
-			"shaderName": "nsmap",
 			"diffuseMap": "textures/stone-floor-04.jpg",
 			"specularMap": "textures/specular/stone-floor-04.jpg",
 			"normalMap": "textures/normal/stone-floor-04.jpg",
 			"uvRepeat": 2
 		},
 		"geometry": "debug/plane.obj",
-		"position": [ 0, 0, 10 ],
+		"position": [ 0, 0, -2 ],
 		"scale": 2
 	},{
 		"material": {
-			"shaderName": "nsmap",
 			"diffuseMap": "textures/stone-floor-05.jpg",
 			"specularMap": "textures/specular/stone-floor-05.jpg",
 			"normalMap": "textures/normal/stone-floor-05.jpg",
 			"uvRepeat": 2
 		},
 		"geometry": "debug/plane.obj",
-		"position": [ 2, 0, 10 ],
+		"position": [ 2, 0, -2 ],
 		"scale": 2
 	},{
 		"material": {
-			"shaderName": "nsmap",
 			"diffuseMap": "textures/stone-floor-06.jpg",
 			"specularMap": "textures/specular/stone-floor-06.jpg",
 			"normalMap": "textures/normal/stone-floor-06.jpg",
 			"uvRepeat": 2
 		},
 		"geometry": "debug/plane.obj",
-		"position": [ 4, 0, 10 ],
+		"position": [ 4, 0, -2 ],
 		"scale": 2
 	},{
 		"material": {
-			"shaderName": "nsmap",
 			"diffuseMap": "textures/tiles-01.jpg",
 			"specularMap": "textures/specular/tiles-01.jpg",
 			"normalMap": "textures/normal/tiles-01.jpg",
 			"uvRepeat": 2
 		},
 		"geometry": "debug/plane.obj",
-		"position": [ 6, 0, 10 ],
+		"position": [ 6, 0, -2 ],
 		"scale": 2
 	},{
 		"material": {
-			"shaderName": "nsmap",
 			"diffuseMap": "textures/tiles-02.jpg",
 			"specularMap": "textures/specular/tiles-02.jpg",
 			"normalMap": "textures/normal/tiles-02.jpg",
 			"uvRepeat": 2
 		},
 		"geometry": "debug/plane.obj",
-		"position": [ 8, 0, 10 ],
+		"position": [ 8, 0, -2 ],
 		"scale": 2
 	},{
 		"material": {
-			"shaderName": "nsmap",
 			"diffuseMap": "textures/wood-floor-01.jpg",
 			"specularMap": "textures/specular/wood-floor-01.jpg",
 			"normalMap": "textures/normal/wood-floor-01.jpg",
 			"uvRepeat": 2
 		},
 		"geometry": "debug/plane.obj",
-		"position": [ 10, 0, 10 ],
+		"position": [ 10, 0, -2 ],
 		"scale": 2
 	}
 ]}
