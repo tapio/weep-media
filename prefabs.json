@@ -32,6 +32,7 @@
 				"diffuseMap": "objects/gas_tank/diffuse.jpg",
 				"normalMap": "objects/gas_tank/normal.jpg",
 				"specularMap": "objects/gas_tank/specular.jpg",
+				"aoMap": "objects/gas_tank/ao.jpg",
 				"shininess": 32
 			},
 			"geometry": "objects/gas_tank/gas_tank.obj",
