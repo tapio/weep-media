@@ -46,7 +46,8 @@
 				"diffuseMap": "objects/barrel_metal/diffuse_blue.jpg",
 				"normalMap": "objects/barrel_metal/normal_soft_bumps.jpg",
 				"specularMap": "objects/barrel_metal/specular.jpg",
-				"shininess": 32
+				"shininess": 32,
+				"reflectivity": 0.05
 			},
 			"geometry": "objects/barrel_metal/metal_barrel.obj",
 			"body": {
@@ -59,7 +60,8 @@
 				"diffuseMap": "objects/barrel_metal/diffuse_red.jpg",
 				"normalMap": "objects/barrel_metal/normal_soft_bumps.jpg",
 				"specularMap": "objects/barrel_metal/specular.jpg",
-				"shininess": 32
+				"shininess": 32,
+				"reflectivity": 0.05
 			},
 			"geometry": "objects/barrel_metal/metal_barrel.obj",
 			"body": {
@@ -85,7 +87,8 @@
 				"diffuseMap": "objects/barrel_metal/diffuse_stainless_steel.jpg",
 				"normalMap": "objects/barrel_metal/normal_soft_bumps.jpg",
 				"specularMap": "objects/barrel_metal/specular_stainless_steel.jpg",
-				"shininess": 32
+				"shininess": 32,
+				"reflectivity": 0.2
 			},
 			"geometry": "objects/barrel_metal/metal_barrel.obj",
 			"body": {
@@ -100,7 +103,8 @@
 				"normalMap": "objects/barrel_metal/normal_soft_bumps.jpg",
 				"specularMap": "objects/barrel_metal/specular_stainless_steel.jpg",
 				"tessellate": true,
-				"shininess": 32
+				"shininess": 32,
+				"reflectivity": 0.2
 			},
 			"geometry": "objects/barrel_metal/metal_barrel.obj",
 			"body": {
