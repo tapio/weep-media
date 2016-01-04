@@ -36,10 +36,9 @@
 				"specular": 1.0,
 				"animated": true
 			},{
-				"diffuseMap": "objects/robot/diffuse_top.png",
-				"specularMap": "objects/robot/specular_top.png",
-				"diffuse": 1.0,
-				"specular": 1.0,
+				"diffuse": 0.0,
+				"specular": 0.0,
+				"emissive": [2.0, 2.0, 0.0],
 				"animated": true
 			}],
 			"geometry": "objects/robot/robot.iqm",
