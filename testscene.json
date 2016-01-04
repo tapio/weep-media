@@ -70,12 +70,16 @@
 		},{
 			"prefab": "barrel_blue",
 			"material": {
-				"shaderName": "specularmap"
+				"specularMap": null,
+				"reflectivity": 1
 			},
 			"position": [ -3, 0.5, -12.8 ]
 		},{
 			"prefab": "barrel_blue",
 			"position": [ -3, 0.5, -12 ]
+		},{
+			"prefab": "barrel_red",
+			"position": [ -4, 0.5, -12 ]
 		},{
 			"prefab": "barrel_rusty",
 			"position": [ -1.5, 0.5, -12 ]
