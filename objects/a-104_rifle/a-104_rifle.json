@@ -1,0 +1,26 @@
+{
+	"material": [{
+		"diffuseMap": "objects/a-104_rifle/diffuse.jpg",
+		"normalMap": "objects/a-104_rifle/normal.jpg",
+		"specularMap": "objects/a-104_rifle/specular.jpg",
+		"shininess": 32,
+		"reflectivity": 0.2,
+		"diffuse": 0.5,
+		"specular": 0.5,
+		"emissive": [ 0.05, 0.05, 0.7 ]
+	},{
+		"diffuseMap": "objects/a-104_rifle/diffuse.jpg",
+		"normalMap": "objects/a-104_rifle/normal.jpg",
+		"specularMap": "objects/a-104_rifle/specular.jpg",
+		"shininess": 32,
+		"diffuse": 0.5,
+		"reflectivity": 0.1
+	},{
+		"diffuseMap": "objects/a-104_rifle/diffuse.jpg",
+		"normalMap": "objects/a-104_rifle/normal.jpg",
+		"specularMap": "objects/a-104_rifle/specular.jpg",
+		"diffuse": 0.5,
+		"shininess": 32
+	}],
+	"geometry": "objects/a-104_rifle/a-104_rifle.obj"
+}
