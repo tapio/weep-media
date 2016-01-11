@@ -34,6 +34,15 @@ EOF
 			"emissive": 0.75,
 EOF
 	fi
+	# Handle height map if exists
+	heimap="${i%.*}"
+	heimap=`ls "height/$heimap."* 2>/dev/null`
+	if [ $? -eq 0 ]; then
+		cat << EOF >> "$FILE"
+			"heightMap": "textures/$heimap",
+			"parallax": 0.02,
+EOF
+	fi
 
 cat << EOF >> "$FILE"
 			"uvRepeat": 2
