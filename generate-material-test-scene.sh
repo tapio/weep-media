@@ -40,7 +40,7 @@ EOF
 	if [ $? -eq 0 ]; then
 		cat << EOF >> "$FILE"
 			"heightMap": "textures/$heimap",
-			"parallax": 0.02,
+			"parallax": 0.03,
 EOF
 	fi
 

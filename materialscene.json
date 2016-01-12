@@ -32,7 +32,7 @@
 			"specularMap": "textures/specular/grass-03.jpg",
 			"normalMap": "textures/normal/grass-03.jpg",
 			"heightMap": "textures/height/grass-03.png",
-			"parallax": 0.02,
+			"parallax": 0.03,
 			"uvRepeat": 2
 		},
 		"geometry": "debug/plane.obj",
@@ -54,7 +54,7 @@
 			"specularMap": "textures/specular/metal-01.jpg",
 			"normalMap": "textures/normal/metal-01.jpg",
 			"heightMap": "textures/height/metal-01.png",
-			"parallax": 0.02,
+			"parallax": 0.03,
 			"uvRepeat": 2
 		},
 		"geometry": "debug/plane.obj",
@@ -66,7 +66,7 @@
 			"specularMap": "textures/specular/metal-02.jpg",
 			"normalMap": "textures/normal/metal-02.jpg",
 			"heightMap": "textures/height/metal-02.png",
-			"parallax": 0.02,
+			"parallax": 0.03,
 			"uvRepeat": 2
 		},
 		"geometry": "debug/plane.obj",
@@ -88,7 +88,7 @@
 			"specularMap": "textures/specular/metal-bumps-01.jpg",
 			"normalMap": "textures/normal/metal-bumps-01.jpg",
 			"heightMap": "textures/height/metal-bumps-01.png",
-			"parallax": 0.02,
+			"parallax": 0.03,
 			"uvRepeat": 2
 		},
 		"geometry": "debug/plane.obj",
@@ -100,7 +100,7 @@
 			"specularMap": "textures/specular/metal-bumps-02.jpg",
 			"normalMap": "textures/normal/metal-bumps-02.jpg",
 			"heightMap": "textures/height/metal-bumps-02.png",
-			"parallax": 0.02,
+			"parallax": 0.03,
 			"uvRepeat": 2
 		},
 		"geometry": "debug/plane.obj",
@@ -112,7 +112,7 @@
 			"specularMap": "textures/specular/metal-bumps-03.jpg",
 			"normalMap": "textures/normal/metal-bumps-03.jpg",
 			"heightMap": "textures/height/metal-bumps-03.png",
-			"parallax": 0.02,
+			"parallax": 0.03,
 			"uvRepeat": 2
 		},
 		"geometry": "debug/plane.obj",
@@ -176,7 +176,7 @@
 			"specularMap": "textures/specular/metal-colored-06.jpg",
 			"normalMap": "textures/normal/metal-colored-06.jpg",
 			"heightMap": "textures/height/metal-colored-06.png",
-			"parallax": 0.02,
+			"parallax": 0.03,
 			"uvRepeat": 2
 		},
 		"geometry": "debug/plane.obj",
@@ -190,7 +190,7 @@
 			"emissionMap": "textures/emission/metal-colored-07.jpg",
 			"emissive": 0.75,
 			"heightMap": "textures/height/metal-colored-07.png",
-			"parallax": 0.02,
+			"parallax": 0.03,
 			"uvRepeat": 2
 		},
 		"geometry": "debug/plane.obj",
@@ -214,7 +214,7 @@
 			"specularMap": "textures/specular/metal-colored-09.jpg",
 			"normalMap": "textures/normal/metal-colored-09.jpg",
 			"heightMap": "textures/height/metal-colored-09.png",
-			"parallax": 0.02,
+			"parallax": 0.03,
 			"uvRepeat": 2
 		},
 		"geometry": "debug/plane.obj",
@@ -226,7 +226,7 @@
 			"specularMap": "textures/specular/metal-corrugated-01.jpg",
 			"normalMap": "textures/normal/metal-corrugated-01.jpg",
 			"heightMap": "textures/height/metal-corrugated-01.png",
-			"parallax": 0.02,
+			"parallax": 0.03,
 			"uvRepeat": 2
 		},
 		"geometry": "debug/plane.obj",
@@ -238,7 +238,7 @@
 			"specularMap": "textures/specular/metal-corrugated-02.jpg",
 			"normalMap": "textures/normal/metal-corrugated-02.jpg",
 			"heightMap": "textures/height/metal-corrugated-02.png",
-			"parallax": 0.02,
+			"parallax": 0.03,
 			"uvRepeat": 2
 		},
 		"geometry": "debug/plane.obj",
@@ -292,7 +292,7 @@
 			"specularMap": "textures/specular/rock-01.jpg",
 			"normalMap": "textures/normal/rock-01.jpg",
 			"heightMap": "textures/height/rock-01.png",
-			"parallax": 0.02,
+			"parallax": 0.03,
 			"uvRepeat": 2
 		},
 		"geometry": "debug/plane.obj",
@@ -304,7 +304,7 @@
 			"specularMap": "textures/specular/rock-02.jpg",
 			"normalMap": "textures/normal/rock-02.jpg",
 			"heightMap": "textures/height/rock-02.png",
-			"parallax": 0.02,
+			"parallax": 0.03,
 			"uvRepeat": 2
 		},
 		"geometry": "debug/plane.obj",
@@ -316,7 +316,7 @@
 			"specularMap": "textures/specular/rock-03.jpg",
 			"normalMap": "textures/normal/rock-03.jpg",
 			"heightMap": "textures/height/rock-03.png",
-			"parallax": 0.02,
+			"parallax": 0.03,
 			"uvRepeat": 2
 		},
 		"geometry": "debug/plane.obj",
@@ -328,7 +328,7 @@
 			"specularMap": "textures/specular/rock-04.jpg",
 			"normalMap": "textures/normal/rock-04.jpg",
 			"heightMap": "textures/height/rock-04.png",
-			"parallax": 0.02,
+			"parallax": 0.03,
 			"uvRepeat": 2
 		},
 		"geometry": "debug/plane.obj",
@@ -340,7 +340,7 @@
 			"specularMap": "textures/specular/rock-05.jpg",
 			"normalMap": "textures/normal/rock-05.jpg",
 			"heightMap": "textures/height/rock-05.png",
-			"parallax": 0.02,
+			"parallax": 0.03,
 			"uvRepeat": 2
 		},
 		"geometry": "debug/plane.obj",
@@ -392,7 +392,7 @@
 			"specularMap": "textures/specular/stone-01.jpg",
 			"normalMap": "textures/normal/stone-01.jpg",
 			"heightMap": "textures/height/stone-01.png",
-			"parallax": 0.02,
+			"parallax": 0.03,
 			"uvRepeat": 2
 		},
 		"geometry": "debug/plane.obj",
@@ -404,7 +404,7 @@
 			"specularMap": "textures/specular/stone-02.jpg",
 			"normalMap": "textures/normal/stone-02.jpg",
 			"heightMap": "textures/height/stone-02.png",
-			"parallax": 0.02,
+			"parallax": 0.03,
 			"uvRepeat": 2
 		},
 		"geometry": "debug/plane.obj",
@@ -436,7 +436,7 @@
 			"specularMap": "textures/specular/stone-floor-02.jpg",
 			"normalMap": "textures/normal/stone-floor-02.jpg",
 			"heightMap": "textures/height/stone-floor-02.png",
-			"parallax": 0.02,
+			"parallax": 0.03,
 			"uvRepeat": 2
 		},
 		"geometry": "debug/plane.obj",
@@ -488,7 +488,7 @@
 			"specularMap": "textures/specular/tiles-01.jpg",
 			"normalMap": "textures/normal/tiles-01.jpg",
 			"heightMap": "textures/height/tiles-01.png",
-			"parallax": 0.02,
+			"parallax": 0.03,
 			"uvRepeat": 2
 		},
 		"geometry": "debug/plane.obj",
@@ -500,7 +500,7 @@
 			"specularMap": "textures/specular/tiles-02.jpg",
 			"normalMap": "textures/normal/tiles-02.jpg",
 			"heightMap": "textures/height/tiles-02.png",
-			"parallax": 0.02,
+			"parallax": 0.03,
 			"uvRepeat": 2
 		},
 		"geometry": "debug/plane.obj",
@@ -512,7 +512,7 @@
 			"specularMap": "textures/specular/tiles-03.jpg",
 			"normalMap": "textures/normal/tiles-03.jpg",
 			"heightMap": "textures/height/tiles-03.png",
-			"parallax": 0.02,
+			"parallax": 0.03,
 			"uvRepeat": 2
 		},
 		"geometry": "debug/plane.obj",
