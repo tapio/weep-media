@@ -15,7 +15,6 @@
 		},
 		"rock-platform": {
 			"material": {
-				"shaderName": "nsmap",
 				"diffuseMap": "objects/rock-platform/prop_rocks_rocksgrass_001_col.jpg",
 				"normalMap": "objects/rock-platform/prop_rocks_rocksgrass_001_nor.jpg",
 				"specularMap": "objects/rock-platform/prop_rocks_rocksgrass_001_col.jpg",
@@ -98,7 +97,6 @@
 		},
 		"barrel_stainless_tess": {
 			"material": {
-				"shaderName": "nstess",
 				"diffuseMap": "objects/barrel_metal/diffuse_stainless_steel.jpg",
 				"normalMap": "objects/barrel_metal/normal_soft_bumps.jpg",
 				"specularMap": "objects/barrel_metal/specular_stainless_steel.jpg",
@@ -140,7 +138,6 @@
 		},
 		"pallet": {
 			"material": {
-				"shaderName": "nsmap",
 				"diffuseMap": "objects/pallet/diffuse.jpg",
 				"normalMap": "objects/pallet/normal.jpg",
 				"specularMap": "objects/pallet/specular.jpg",
@@ -154,7 +151,6 @@
 		},
 		"rock_01": {
 			"material": {
-				"shaderName": "nsmap",
 				"diffuseMap": "objects/rock_01/diffuse.jpg",
 				"normalMap": "objects/rock_01/normal.jpg",
 				"specularMap": "objects/rock_01/specular.jpg",
@@ -168,7 +164,6 @@
 		},
 		"rock_02": {
 			"material": {
-				"shaderName": "nsmap",
 				"diffuseMap": "objects/rock_02/diffuse.jpg",
 				"normalMap": "objects/rock_02/normal.jpg",
 				"specularMap": "objects/rock_02/specular.jpg",
@@ -182,7 +177,6 @@
 		},
 		"rock_03": {
 			"material": {
-				"shaderName": "nsmap",
 				"diffuseMap": "objects/rock_03/diffuse.jpg",
 				"normalMap": "objects/rock_03/normal.jpg",
 				"specularMap": "objects/rock_03/specular.jpg",
@@ -196,7 +190,6 @@
 		},
 		"rock_04": {
 			"material": {
-				"shaderName": "nsmap",
 				"diffuseMap": "objects/rock_04/diffuse.jpg",
 				"normalMap": "objects/rock_04/normal.jpg",
 				"specularMap": "objects/rock_04/specular.jpg",

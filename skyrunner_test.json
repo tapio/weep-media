@@ -9,7 +9,6 @@
 			"position": [-0.5, 4.5, 4]
 		},{
 			"material": {
-				"shaderName": "nsemap",
 				"diffuseMap": "textures/metal-worn-02.jpg",
 				"specularMap": "textures/specular/metal-worn-02.jpg",
 				"normalMap": "textures/normal/metal-worn-02.jpg",

@@ -6,7 +6,6 @@
 			"position": [1, 0, 5]
 		},{
 			"material": {
-				"shaderName": "nsmap",
 				"diffuseMap": "textures/metal-colored-04.jpg",
 				"specularMap": "textures/specular/metal-colored-04.jpg",
 				"normalMap": "textures/normal/metal-colored-04.jpg",

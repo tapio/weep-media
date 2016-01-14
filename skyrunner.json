@@ -26,7 +26,6 @@
 	"prefabs": {
 		"skyblock1": {
 			"material": {
-				"shaderName": "nsemap",
 				"diffuseMap": "textures/metal-worn-02.jpg",
 				"specularMap": "textures/specular/metal-worn-02.jpg",
 				"normalMap": "textures/normal/metal-worn-02.jpg",
@@ -43,7 +42,6 @@
 		},
 		"skyblock2": {
 			"material": {
-				"shaderName": "nsmap",
 				"diffuseMap": "textures/metal-colored-02.jpg",
 				"specularMap": "textures/specular/metal-colored-02.jpg",
 				"normalMap": "textures/normal/metal-colored-02.jpg",
@@ -58,7 +56,6 @@
 		},
 		"skyblock3": {
 			"material": {
-				"shaderName": "nsmap",
 				"diffuseMap": "textures/metal-colored-09.jpg",
 				"specularMap": "textures/specular/metal-colored-09.jpg",
 				"normalMap": "textures/normal/metal-colored-09.jpg",
@@ -73,7 +70,6 @@
 		},
 		"goalblock": {
 			"material": {
-				"shaderName": "nsemap",
 				"diffuseMap": "textures/metal-colored-07.jpg",
 				"specularMap": "textures/specular/metal-colored-07.jpg",
 				"normalMap": "textures/normal/metal-colored-07.jpg",
@@ -90,7 +86,6 @@
 		},
 		"skybox": {
 			"material": {
-				"shaderName": "nsemap",
 				"diffuseMap": "textures/metal-colored-01.jpg",
 				"specularMap": "textures/specular/metal-colored-01.jpg",
 				"normalMap": "textures/normal/metal-colored-01.jpg",
