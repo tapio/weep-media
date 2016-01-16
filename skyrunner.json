@@ -59,7 +59,9 @@
 				"diffuseMap": "textures/metal-colored-09.jpg",
 				"specularMap": "textures/specular/metal-colored-09.jpg",
 				"normalMap": "textures/normal/metal-colored-09.jpg",
+				"heightMap": "textures/height/metal-colored-09.png",
 				"ambient": [ 0.01, 0.01, 0.01 ],
+				"parallax": 0.05,
 				"shininess": 8
 			},
 			"geometry": "debug/cube.obj",
@@ -74,7 +76,9 @@
 				"specularMap": "textures/specular/metal-colored-07.jpg",
 				"normalMap": "textures/normal/metal-colored-07.jpg",
 				"emissionMap": "textures/emission/metal-colored-07.jpg",
+				"heightMap": "textures/height/metal-colored-07.png",
 				"emissive": 1.0,
+				"parallax": 0.025,
 				"ambient": [ 0.01, 0.01, 0.01 ],
 				"shininess": 8
 			},
