@@ -1,0 +1,128 @@
+{
+	"modules": [ "pong" ],
+	"fonts": {
+		"pong_big": {
+			"path": "fonts/Orbitron-Black.ttf",
+			"size": 48
+		},
+		"pong_menu": {
+			"path": "fonts/Orbitron-Black.ttf",
+			"size": 24
+		}
+	},
+	"environment": {
+		"sunColor": [ 0.5, 0.5, 0.5 ],
+		"sunPosition": [ 0, 1, 0 ],
+		"skybox": "skyboxes/cloudy-01/"
+	},
+	"prefabs": {
+		"wall": {
+			"material": {
+				"diffuseMap": "textures/metal-bumps-02.jpg",
+				"specularMap": "textures/specular/metal-bumps-02.jpg",
+				"normalMap": "textures/normal/metal-bumps-02.jpg",
+				"ambient": [ 0.01, 0.01, 0.01 ],
+				"shininess": 8
+			},
+			"geometry": "debug/cube.obj",
+			"body": {
+				"shape": "box",
+				"mass": 0,
+				"restitution": 1
+			}
+		},
+		"paddle": {
+			"material": {
+				"diffuseMap": "textures/metal-colored-09.jpg",
+				"specularMap": "textures/specular/metal-colored-09.jpg",
+				"normalMap": "textures/normal/metal-colored-09.jpg",
+				"ambient": [ 0.01, 0.01, 0.01 ],
+				"shininess": 8
+			},
+			"geometry": "debug/cube.obj",
+			"body": {
+				"shape": "box",
+				"mass": 100,
+				"noGravity": true,
+				"noSleep": true,
+				"linearFactor": [ 0, 0, 1 ],
+				"angularFactor": 0,
+				"restitution": 1
+			},
+			"scale": [ 0.5, 0.5, 3 ]
+		}
+	},
+	"objects": [{
+		"name": "camera",
+		"position": [ 0, 10, 0 ],
+		"rotation": [ 0, 0, 1.57 ]
+	},{
+		"material": {
+			"diffuseMap": "textures/metal-colored-05.jpg",
+			"specularMap": "textures/specular/metal-colored-05.jpg",
+			"normalMap": "textures/normal/metal-colored-05.jpg",
+			"ambient": [ 0.01, 0.01, 0.01 ],
+			"shininess": 8,
+			"uvRepeat": [ 24, 17 ]
+		},
+		"geometry": "debug/plane.obj",
+		"body": {
+			"shape": "box",
+			"mass": 0
+		},
+		"position": [ 0, -0.5, 0 ],
+		"scale": [ 24, 1, 17 ]
+	},{
+		"prefab": "wall",
+		"name": "wall_top",
+		"material": { "uvRepeat": [ 24, 1 ] },
+		"position": [ 0, 0, -8 ],
+		"scale": [ 24, 1, 1]
+	},{
+		"prefab": "wall",
+		"name": "wall_bottom",
+		"material": { "uvRepeat": [ 24, 1 ] },
+		"position": [ 0, 0, 8 ],
+		"scale": [ 24, 1, 1]
+	},{
+		"prefab": "wall",
+		"name": "wall_left",
+		"material": { "uvRepeat": [ 17, 1 ] },
+		"position": [ -12.5, 0, 0 ],
+		"scale": [ 1, 1, 17 ],
+		"rotationXXX": [ 1.570796, 0, 0 ]
+	},{
+		"prefab": "wall",
+		"name": "wall_right",
+		"material": { "uvRepeat": [ 17, 1 ] },
+		"position": [ 12.5, 0, 0 ],
+		"scale": [ 1, 1, 17 ],
+		"rotationXXX": [ 0, 0, 1.570796 ]
+	},{
+		"prefab": "paddle",
+		"name": "paddle1",
+		"position": [ -10, 0, 0 ]
+	},{
+		"prefab": "paddle",
+		"name": "paddle2",
+		"position": [ 10, 0, 0 ]
+	},{
+		"name": "ball",
+		"material": {
+			"diffuseMap": "textures/metal-colored-07.jpg",
+			"specularMap": "textures/specular/metal-colored-07.jpg",
+			"normalMap": "textures/normal/metal-colored-07.jpg",
+			"ambient": [ 0.01, 0.01, 0.01 ],
+			"shininess": 8
+		},
+		"geometry": "debug/sphere.obj",
+		"body": {
+			"shape": "sphere",
+			"mass": 10,
+			"noSleep": true,
+			"linearFactor": [ 1, 0.1, 1 ],
+			"restitution": 1.5
+		},
+		"scale": 0.5
+	}]
+}
