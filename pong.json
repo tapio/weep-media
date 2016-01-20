@@ -3,11 +3,7 @@
 	"fonts": {
 		"pong_big": {
 			"path": "fonts/Orbitron-Black.ttf",
-			"size": 48
-		},
-		"pong_menu": {
-			"path": "fonts/Orbitron-Black.ttf",
-			"size": 24
+			"size": 36
 		}
 	},
 	"environment": {
