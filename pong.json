@@ -54,8 +54,8 @@
 	},
 	"objects": [{
 		"name": "camera",
-		"position": [ 0, 10, 0 ],
-		"rotation": [ 0, 0, 1.57 ]
+		"position": [ 0, 15, 8 ],
+		"rotation": [ -1.1, 0, 0 ]
 	},{
 		"material": {
 			"diffuseMap": "textures/metal-colored-05.jpg",
