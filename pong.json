@@ -6,6 +6,18 @@
 			"size": 36
 		}
 	},
+	"sounds": {
+		"point": [
+			"sounds/8-bit/hit_01.ogg",
+			"sounds/8-bit/hit_02.ogg"
+		],
+		"win": [
+			"sounds/8-bit/jingle_achievement_00.ogg",
+			"sounds/8-bit/jingle_achievement_01.ogg",
+			"sounds/8-bit/jingle_win_00.ogg",
+			"sounds/8-bit/jingle_win_01.ogg"
+		]
+	},
 	"environment": {
 		"sunColor": [ 0.5, 0.5, 0.5 ],
 		"sunPosition": [ 0, 1, 0 ],
