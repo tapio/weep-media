@@ -21,7 +21,8 @@
 	"environment": {
 		"sunColor": [ 0.5, 0.5, 0.5 ],
 		"sunPosition": [ 0, 1, 0 ],
-		"skybox": "skyboxes/cloudy-01/"
+		"skybox": "skyboxes/cloudy-01/",
+		"bloomIntensity": 3
 	},
 	"prefabs": {
 		"wall": {
@@ -41,11 +42,14 @@
 		},
 		"paddle": {
 			"material": {
-				"diffuseMap": "textures/metal-colored-09.jpg",
-				"specularMap": "textures/specular/metal-colored-09.jpg",
-				"normalMap": "textures/normal/metal-colored-09.jpg",
-				"ambient": [ 0.01, 0.01, 0.01 ],
-				"shininess": 8
+				"diffuseMap": "textures/metal-colored-08.jpg",
+				"specularMap": "textures/specular/metal-colored-08.jpg",
+				"normalMap": "textures/normal/metal-colored-08.jpg",
+				"emissionMap": "textures/emission/metal-colored-08.png",
+				"ambient": 0.01,
+				"diffuse": 0.25,
+				"shininess": 8,
+				"uvRepeat": [ 3, 0.5 ]
 			},
 			"geometry": "debug/cube.obj",
 			"body": {
@@ -57,7 +61,8 @@
 				"angularFactor": 0,
 				"restitution": 1
 			},
-			"scale": [ 0.5, 0.5, 3 ]
+			"scale": [ 3, 0.5, 0.5 ],
+			"rotation": [ 0, 1.570796, 0 ]
 		}
 	},
 	"objects": [{
@@ -97,22 +102,24 @@
 		"name": "wall_left",
 		"material": { "uvRepeat": [ 17, 1 ] },
 		"position": [ -12.5, 0, 0 ],
-		"scale": [ 1, 1, 17 ],
-		"rotationXXX": [ 1.570796, 0, 0 ]
+		"scale": [ 17, 1, 1 ],
+		"rotation": [ 0, 1.570796, 0 ]
 	},{
 		"prefab": "wall",
 		"name": "wall_right",
 		"material": { "uvRepeat": [ 17, 1 ] },
 		"position": [ 12.5, 0, 0 ],
-		"scale": [ 1, 1, 17 ],
-		"rotationXXX": [ 0, 0, 1.570796 ]
+		"scale": [ 17, 1, 1 ],
+		"rotation": [ 0, 1.570796, 0 ]
 	},{
 		"prefab": "paddle",
 		"name": "paddle1",
+		"material": { "emissive": [ 0, 0, 4 ] },
 		"position": [ -10, 0, 0 ]
 	},{
 		"prefab": "paddle",
 		"name": "paddle2",
+		"material": { "emissive": [ 3, 0, 0 ] },
 		"position": [ 10, 0, 0 ]
 	},{
 		"name": "ball",
