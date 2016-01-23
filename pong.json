@@ -7,6 +7,12 @@
 		}
 	},
 	"sounds": {
+		"hit": [
+			"sounds/8-bit/menu_navigate_00.ogg",
+			"sounds/8-bit/menu_navigate_01.ogg",
+			"sounds/8-bit/menu_navigate_02.ogg",
+			"sounds/8-bit/menu_navigate_03.ogg"
+		],
 		"point": [
 			"sounds/8-bit/hit_01.ogg",
 			"sounds/8-bit/hit_02.ogg"
@@ -38,7 +44,8 @@
 				"shape": "box",
 				"mass": 0,
 				"restitution": 1
-			}
+			},
+			"trackContacts": true
 		},
 		"paddle": {
 			"material": {
@@ -62,7 +69,8 @@
 				"restitution": 1
 			},
 			"scale": [ 3, 0.5, 0.5 ],
-			"rotation": [ 0, 1.570796, 0 ]
+			"rotation": [ 0, 1.570796, 0 ],
+			"trackContacts": true
 		}
 	},
 	"objects": [{
@@ -138,6 +146,10 @@
 			"linearFactor": [ 1, 0.1, 1 ],
 			"restitution": 1
 		},
-		"scale": 0.5
+		"scale": 0.5,
+		"trackContacts": true,
+		"contactSound": {
+			"event": "hit"
+		}
 	}]
 }
