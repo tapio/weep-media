@@ -11,21 +11,21 @@
 			"diffuseMap": "textures/grass-01.jpg",
 			"specularMap": "textures/specular/grass-01.jpg",
 			"normalMap": "textures/normal/grass-01.jpg",
-			"uvRepeat": 2
+			"uvRepeat": 1
 		},
-		"geometry": "debug/plane.obj",
-		"position": [ 0, 0, -12 ],
-		"scale": 2
+		"geometry": "debug/sphere.obj",
+		"position": [ 0, -0.25, -12 ],
+		"scale": 0.75
 	},{
 		"material": {
 			"diffuseMap": "textures/grass-02.jpg",
 			"specularMap": "textures/specular/grass-02.jpg",
 			"normalMap": "textures/normal/grass-02.jpg",
-			"uvRepeat": 2
+			"uvRepeat": 1
 		},
-		"geometry": "debug/plane.obj",
-		"position": [ 2, 0, -12 ],
-		"scale": 2
+		"geometry": "debug/sphere.obj",
+		"position": [ 2, -0.25, -12 ],
+		"scale": 0.75
 	},{
 		"material": {
 			"diffuseMap": "textures/grass-03.jpg",
@@ -33,21 +33,21 @@
 			"normalMap": "textures/normal/grass-03.jpg",
 			"heightMap": "textures/height/grass-03.png",
 			"parallax": 0.03,
-			"uvRepeat": 2
+			"uvRepeat": 1
 		},
-		"geometry": "debug/plane.obj",
-		"position": [ 4, 0, -12 ],
-		"scale": 2
+		"geometry": "debug/sphere.obj",
+		"position": [ 4, -0.25, -12 ],
+		"scale": 0.75
 	},{
 		"material": {
 			"diffuseMap": "textures/grass-04.jpg",
 			"specularMap": "textures/specular/grass-04.jpg",
 			"normalMap": "textures/normal/grass-04.jpg",
-			"uvRepeat": 2
+			"uvRepeat": 1
 		},
-		"geometry": "debug/plane.obj",
-		"position": [ 6, 0, -12 ],
-		"scale": 2
+		"geometry": "debug/sphere.obj",
+		"position": [ 6, -0.25, -12 ],
+		"scale": 0.75
 	},{
 		"material": {
 			"diffuseMap": "textures/metal-01.jpg",
@@ -55,11 +55,11 @@
 			"normalMap": "textures/normal/metal-01.jpg",
 			"heightMap": "textures/height/metal-01.png",
 			"parallax": 0.03,
-			"uvRepeat": 2
+			"uvRepeat": 1
 		},
-		"geometry": "debug/plane.obj",
-		"position": [ 8, 0, -12 ],
-		"scale": 2
+		"geometry": "debug/sphere.obj",
+		"position": [ 8, -0.25, -12 ],
+		"scale": 0.75
 	},{
 		"material": {
 			"diffuseMap": "textures/metal-02.jpg",
@@ -67,21 +67,21 @@
 			"normalMap": "textures/normal/metal-02.jpg",
 			"heightMap": "textures/height/metal-02.png",
 			"parallax": 0.03,
-			"uvRepeat": 2
+			"uvRepeat": 1
 		},
-		"geometry": "debug/plane.obj",
-		"position": [ 10, 0, -12 ],
-		"scale": 2
+		"geometry": "debug/sphere.obj",
+		"position": [ 10, -0.25, -12 ],
+		"scale": 0.75
 	},{
 		"material": {
 			"diffuseMap": "textures/metal-03.jpg",
 			"specularMap": "textures/specular/metal-03.jpg",
 			"normalMap": "textures/normal/metal-03.jpg",
-			"uvRepeat": 2
+			"uvRepeat": 1
 		},
-		"geometry": "debug/plane.obj",
-		"position": [ 12, 0, -12 ],
-		"scale": 2
+		"geometry": "debug/sphere.obj",
+		"position": [ 12, -0.25, -12 ],
+		"scale": 0.75
 	},{
 		"material": {
 			"diffuseMap": "textures/metal-bumps-01.jpg",
@@ -89,11 +89,11 @@
 			"normalMap": "textures/normal/metal-bumps-01.jpg",
 			"heightMap": "textures/height/metal-bumps-01.png",
 			"parallax": 0.03,
-			"uvRepeat": 2
+			"uvRepeat": 1
 		},
-		"geometry": "debug/plane.obj",
-		"position": [ 14, 0, -12 ],
-		"scale": 2
+		"geometry": "debug/sphere.obj",
+		"position": [ 14, -0.25, -12 ],
+		"scale": 0.75
 	},{
 		"material": {
 			"diffuseMap": "textures/metal-bumps-02.jpg",
@@ -101,11 +101,11 @@
 			"normalMap": "textures/normal/metal-bumps-02.jpg",
 			"heightMap": "textures/height/metal-bumps-02.png",
 			"parallax": 0.03,
-			"uvRepeat": 2
+			"uvRepeat": 1
 		},
-		"geometry": "debug/plane.obj",
-		"position": [ 0, 0, -10 ],
-		"scale": 2
+		"geometry": "debug/sphere.obj",
+		"position": [ 0, -0.25, -10 ],
+		"scale": 0.75
 	},{
 		"material": {
 			"diffuseMap": "textures/metal-bumps-03.jpg",
@@ -113,11 +113,11 @@
 			"normalMap": "textures/normal/metal-bumps-03.jpg",
 			"heightMap": "textures/height/metal-bumps-03.png",
 			"parallax": 0.03,
-			"uvRepeat": 2
+			"uvRepeat": 1
 		},
-		"geometry": "debug/plane.obj",
-		"position": [ 2, 0, -10 ],
-		"scale": 2
+		"geometry": "debug/sphere.obj",
+		"position": [ 2, -0.25, -10 ],
+		"scale": 0.75
 	},{
 		"material": {
 			"diffuseMap": "textures/metal-colored-01.jpg",
@@ -125,51 +125,51 @@
 			"normalMap": "textures/normal/metal-colored-01.jpg",
 			"emissionMap": "textures/emission/metal-colored-01.png",
 			"emissive": 0.75,
-			"uvRepeat": 2
+			"uvRepeat": 1
 		},
-		"geometry": "debug/plane.obj",
-		"position": [ 4, 0, -10 ],
-		"scale": 2
+		"geometry": "debug/sphere.obj",
+		"position": [ 4, -0.25, -10 ],
+		"scale": 0.75
 	},{
 		"material": {
 			"diffuseMap": "textures/metal-colored-02.jpg",
 			"specularMap": "textures/specular/metal-colored-02.jpg",
 			"normalMap": "textures/normal/metal-colored-02.jpg",
-			"uvRepeat": 2
+			"uvRepeat": 1
 		},
-		"geometry": "debug/plane.obj",
-		"position": [ 6, 0, -10 ],
-		"scale": 2
+		"geometry": "debug/sphere.obj",
+		"position": [ 6, -0.25, -10 ],
+		"scale": 0.75
 	},{
 		"material": {
 			"diffuseMap": "textures/metal-colored-03.jpg",
 			"specularMap": "textures/specular/metal-colored-03.jpg",
 			"normalMap": "textures/normal/metal-colored-03.jpg",
-			"uvRepeat": 2
+			"uvRepeat": 1
 		},
-		"geometry": "debug/plane.obj",
-		"position": [ 8, 0, -10 ],
-		"scale": 2
+		"geometry": "debug/sphere.obj",
+		"position": [ 8, -0.25, -10 ],
+		"scale": 0.75
 	},{
 		"material": {
 			"diffuseMap": "textures/metal-colored-04.jpg",
 			"specularMap": "textures/specular/metal-colored-04.jpg",
 			"normalMap": "textures/normal/metal-colored-04.jpg",
-			"uvRepeat": 2
+			"uvRepeat": 1
 		},
-		"geometry": "debug/plane.obj",
-		"position": [ 10, 0, -10 ],
-		"scale": 2
+		"geometry": "debug/sphere.obj",
+		"position": [ 10, -0.25, -10 ],
+		"scale": 0.75
 	},{
 		"material": {
 			"diffuseMap": "textures/metal-colored-05.jpg",
 			"specularMap": "textures/specular/metal-colored-05.jpg",
 			"normalMap": "textures/normal/metal-colored-05.jpg",
-			"uvRepeat": 2
+			"uvRepeat": 1
 		},
-		"geometry": "debug/plane.obj",
-		"position": [ 12, 0, -10 ],
-		"scale": 2
+		"geometry": "debug/sphere.obj",
+		"position": [ 12, -0.25, -10 ],
+		"scale": 0.75
 	},{
 		"material": {
 			"diffuseMap": "textures/metal-colored-06.jpg",
@@ -177,11 +177,11 @@
 			"normalMap": "textures/normal/metal-colored-06.jpg",
 			"heightMap": "textures/height/metal-colored-06.png",
 			"parallax": 0.03,
-			"uvRepeat": 2
+			"uvRepeat": 1
 		},
-		"geometry": "debug/plane.obj",
-		"position": [ 14, 0, -10 ],
-		"scale": 2
+		"geometry": "debug/sphere.obj",
+		"position": [ 14, -0.25, -10 ],
+		"scale": 0.75
 	},{
 		"material": {
 			"diffuseMap": "textures/metal-colored-07.jpg",
@@ -191,11 +191,11 @@
 			"emissive": 0.75,
 			"heightMap": "textures/height/metal-colored-07.png",
 			"parallax": 0.03,
-			"uvRepeat": 2
+			"uvRepeat": 1
 		},
-		"geometry": "debug/plane.obj",
-		"position": [ 0, 0, -8 ],
-		"scale": 2
+		"geometry": "debug/sphere.obj",
+		"position": [ 0, -0.25, -8 ],
+		"scale": 0.75
 	},{
 		"material": {
 			"diffuseMap": "textures/metal-colored-08.jpg",
@@ -203,11 +203,11 @@
 			"normalMap": "textures/normal/metal-colored-08.jpg",
 			"emissionMap": "textures/emission/metal-colored-08.png",
 			"emissive": 0.75,
-			"uvRepeat": 2
+			"uvRepeat": 1
 		},
-		"geometry": "debug/plane.obj",
-		"position": [ 2, 0, -8 ],
-		"scale": 2
+		"geometry": "debug/sphere.obj",
+		"position": [ 2, -0.25, -8 ],
+		"scale": 0.75
 	},{
 		"material": {
 			"diffuseMap": "textures/metal-colored-09.jpg",
@@ -215,11 +215,11 @@
 			"normalMap": "textures/normal/metal-colored-09.jpg",
 			"heightMap": "textures/height/metal-colored-09.png",
 			"parallax": 0.03,
-			"uvRepeat": 2
+			"uvRepeat": 1
 		},
-		"geometry": "debug/plane.obj",
-		"position": [ 4, 0, -8 ],
-		"scale": 2
+		"geometry": "debug/sphere.obj",
+		"position": [ 4, -0.25, -8 ],
+		"scale": 0.75
 	},{
 		"material": {
 			"diffuseMap": "textures/metal-corrugated-01.jpg",
@@ -227,11 +227,11 @@
 			"normalMap": "textures/normal/metal-corrugated-01.jpg",
 			"heightMap": "textures/height/metal-corrugated-01.png",
 			"parallax": 0.03,
-			"uvRepeat": 2
+			"uvRepeat": 1
 		},
-		"geometry": "debug/plane.obj",
-		"position": [ 6, 0, -8 ],
-		"scale": 2
+		"geometry": "debug/sphere.obj",
+		"position": [ 6, -0.25, -8 ],
+		"scale": 0.75
 	},{
 		"material": {
 			"diffuseMap": "textures/metal-corrugated-02.jpg",
@@ -239,21 +239,21 @@
 			"normalMap": "textures/normal/metal-corrugated-02.jpg",
 			"heightMap": "textures/height/metal-corrugated-02.png",
 			"parallax": 0.03,
-			"uvRepeat": 2
+			"uvRepeat": 1
 		},
-		"geometry": "debug/plane.obj",
-		"position": [ 8, 0, -8 ],
-		"scale": 2
+		"geometry": "debug/sphere.obj",
+		"position": [ 8, -0.25, -8 ],
+		"scale": 0.75
 	},{
 		"material": {
 			"diffuseMap": "textures/metal-worn-01.jpg",
 			"specularMap": "textures/specular/metal-worn-01.jpg",
 			"normalMap": "textures/normal/metal-worn-01.jpg",
-			"uvRepeat": 2
+			"uvRepeat": 1
 		},
-		"geometry": "debug/plane.obj",
-		"position": [ 10, 0, -8 ],
-		"scale": 2
+		"geometry": "debug/sphere.obj",
+		"position": [ 10, -0.25, -8 ],
+		"scale": 0.75
 	},{
 		"material": {
 			"diffuseMap": "textures/metal-worn-02.jpg",
@@ -261,31 +261,31 @@
 			"normalMap": "textures/normal/metal-worn-02.jpg",
 			"emissionMap": "textures/emission/metal-worn-02.png",
 			"emissive": 0.75,
-			"uvRepeat": 2
+			"uvRepeat": 1
 		},
-		"geometry": "debug/plane.obj",
-		"position": [ 12, 0, -8 ],
-		"scale": 2
+		"geometry": "debug/sphere.obj",
+		"position": [ 12, -0.25, -8 ],
+		"scale": 0.75
 	},{
 		"material": {
 			"diffuseMap": "textures/moss-01.jpg",
 			"specularMap": "textures/specular/moss-01.jpg",
 			"normalMap": "textures/normal/moss-01.jpg",
-			"uvRepeat": 2
+			"uvRepeat": 1
 		},
-		"geometry": "debug/plane.obj",
-		"position": [ 14, 0, -8 ],
-		"scale": 2
+		"geometry": "debug/sphere.obj",
+		"position": [ 14, -0.25, -8 ],
+		"scale": 0.75
 	},{
 		"material": {
 			"diffuseMap": "textures/moss-02.jpg",
 			"specularMap": "textures/specular/moss-02.jpg",
 			"normalMap": "textures/normal/moss-02.jpg",
-			"uvRepeat": 2
+			"uvRepeat": 1
 		},
-		"geometry": "debug/plane.obj",
-		"position": [ 0, 0, -6 ],
-		"scale": 2
+		"geometry": "debug/sphere.obj",
+		"position": [ 0, -0.25, -6 ],
+		"scale": 0.75
 	},{
 		"material": {
 			"diffuseMap": "textures/rock-01.jpg",
@@ -293,11 +293,11 @@
 			"normalMap": "textures/normal/rock-01.jpg",
 			"heightMap": "textures/height/rock-01.png",
 			"parallax": 0.03,
-			"uvRepeat": 2
+			"uvRepeat": 1
 		},
-		"geometry": "debug/plane.obj",
-		"position": [ 2, 0, -6 ],
-		"scale": 2
+		"geometry": "debug/sphere.obj",
+		"position": [ 2, -0.25, -6 ],
+		"scale": 0.75
 	},{
 		"material": {
 			"diffuseMap": "textures/rock-02.jpg",
@@ -305,11 +305,11 @@
 			"normalMap": "textures/normal/rock-02.jpg",
 			"heightMap": "textures/height/rock-02.png",
 			"parallax": 0.03,
-			"uvRepeat": 2
+			"uvRepeat": 1
 		},
-		"geometry": "debug/plane.obj",
-		"position": [ 4, 0, -6 ],
-		"scale": 2
+		"geometry": "debug/sphere.obj",
+		"position": [ 4, -0.25, -6 ],
+		"scale": 0.75
 	},{
 		"material": {
 			"diffuseMap": "textures/rock-03.jpg",
@@ -317,11 +317,11 @@
 			"normalMap": "textures/normal/rock-03.jpg",
 			"heightMap": "textures/height/rock-03.png",
 			"parallax": 0.03,
-			"uvRepeat": 2
+			"uvRepeat": 1
 		},
-		"geometry": "debug/plane.obj",
-		"position": [ 6, 0, -6 ],
-		"scale": 2
+		"geometry": "debug/sphere.obj",
+		"position": [ 6, -0.25, -6 ],
+		"scale": 0.75
 	},{
 		"material": {
 			"diffuseMap": "textures/rock-04.jpg",
@@ -329,11 +329,11 @@
 			"normalMap": "textures/normal/rock-04.jpg",
 			"heightMap": "textures/height/rock-04.png",
 			"parallax": 0.03,
-			"uvRepeat": 2
+			"uvRepeat": 1
 		},
-		"geometry": "debug/plane.obj",
-		"position": [ 8, 0, -6 ],
-		"scale": 2
+		"geometry": "debug/sphere.obj",
+		"position": [ 8, -0.25, -6 ],
+		"scale": 0.75
 	},{
 		"material": {
 			"diffuseMap": "textures/rock-05.jpg",
@@ -341,51 +341,51 @@
 			"normalMap": "textures/normal/rock-05.jpg",
 			"heightMap": "textures/height/rock-05.png",
 			"parallax": 0.03,
-			"uvRepeat": 2
+			"uvRepeat": 1
 		},
-		"geometry": "debug/plane.obj",
-		"position": [ 10, 0, -6 ],
-		"scale": 2
+		"geometry": "debug/sphere.obj",
+		"position": [ 10, -0.25, -6 ],
+		"scale": 0.75
 	},{
 		"material": {
 			"diffuseMap": "textures/sand-01.jpg",
 			"specularMap": "textures/specular/sand-01.jpg",
 			"normalMap": "textures/normal/sand-01.jpg",
-			"uvRepeat": 2
+			"uvRepeat": 1
 		},
-		"geometry": "debug/plane.obj",
-		"position": [ 12, 0, -6 ],
-		"scale": 2
+		"geometry": "debug/sphere.obj",
+		"position": [ 12, -0.25, -6 ],
+		"scale": 0.75
 	},{
 		"material": {
 			"diffuseMap": "textures/sand-02.jpg",
 			"specularMap": "textures/specular/sand-02.jpg",
 			"normalMap": "textures/normal/sand-02.jpg",
-			"uvRepeat": 2
+			"uvRepeat": 1
 		},
-		"geometry": "debug/plane.obj",
-		"position": [ 14, 0, -6 ],
-		"scale": 2
+		"geometry": "debug/sphere.obj",
+		"position": [ 14, -0.25, -6 ],
+		"scale": 0.75
 	},{
 		"material": {
 			"diffuseMap": "textures/sand-03.jpg",
 			"specularMap": "textures/specular/sand-03.jpg",
 			"normalMap": "textures/normal/sand-03.jpg",
-			"uvRepeat": 2
+			"uvRepeat": 1
 		},
-		"geometry": "debug/plane.obj",
-		"position": [ 0, 0, -4 ],
-		"scale": 2
+		"geometry": "debug/sphere.obj",
+		"position": [ 0, -0.25, -4 ],
+		"scale": 0.75
 	},{
 		"material": {
 			"diffuseMap": "textures/sand-04.jpg",
 			"specularMap": "textures/specular/sand-04.jpg",
 			"normalMap": "textures/normal/sand-04.jpg",
-			"uvRepeat": 2
+			"uvRepeat": 1
 		},
-		"geometry": "debug/plane.obj",
-		"position": [ 2, 0, -4 ],
-		"scale": 2
+		"geometry": "debug/sphere.obj",
+		"position": [ 2, -0.25, -4 ],
+		"scale": 0.75
 	},{
 		"material": {
 			"diffuseMap": "textures/stone-01.jpg",
@@ -393,11 +393,11 @@
 			"normalMap": "textures/normal/stone-01.jpg",
 			"heightMap": "textures/height/stone-01.png",
 			"parallax": 0.03,
-			"uvRepeat": 2
+			"uvRepeat": 1
 		},
-		"geometry": "debug/plane.obj",
-		"position": [ 4, 0, -4 ],
-		"scale": 2
+		"geometry": "debug/sphere.obj",
+		"position": [ 4, -0.25, -4 ],
+		"scale": 0.75
 	},{
 		"material": {
 			"diffuseMap": "textures/stone-02.jpg",
@@ -405,31 +405,31 @@
 			"normalMap": "textures/normal/stone-02.jpg",
 			"heightMap": "textures/height/stone-02.png",
 			"parallax": 0.03,
-			"uvRepeat": 2
+			"uvRepeat": 1
 		},
-		"geometry": "debug/plane.obj",
-		"position": [ 6, 0, -4 ],
-		"scale": 2
+		"geometry": "debug/sphere.obj",
+		"position": [ 6, -0.25, -4 ],
+		"scale": 0.75
 	},{
 		"material": {
 			"diffuseMap": "textures/stone-03.jpg",
 			"specularMap": "textures/specular/stone-03.jpg",
 			"normalMap": "textures/normal/stone-03.jpg",
-			"uvRepeat": 2
+			"uvRepeat": 1
 		},
-		"geometry": "debug/plane.obj",
-		"position": [ 8, 0, -4 ],
-		"scale": 2
+		"geometry": "debug/sphere.obj",
+		"position": [ 8, -0.25, -4 ],
+		"scale": 0.75
 	},{
 		"material": {
 			"diffuseMap": "textures/stone-floor-01.jpg",
 			"specularMap": "textures/specular/stone-floor-01.jpg",
 			"normalMap": "textures/normal/stone-floor-01.jpg",
-			"uvRepeat": 2
+			"uvRepeat": 1
 		},
-		"geometry": "debug/plane.obj",
-		"position": [ 10, 0, -4 ],
-		"scale": 2
+		"geometry": "debug/sphere.obj",
+		"position": [ 10, -0.25, -4 ],
+		"scale": 0.75
 	},{
 		"material": {
 			"diffuseMap": "textures/stone-floor-02.jpg",
@@ -437,51 +437,51 @@
 			"normalMap": "textures/normal/stone-floor-02.jpg",
 			"heightMap": "textures/height/stone-floor-02.png",
 			"parallax": 0.03,
-			"uvRepeat": 2
+			"uvRepeat": 1
 		},
-		"geometry": "debug/plane.obj",
-		"position": [ 12, 0, -4 ],
-		"scale": 2
+		"geometry": "debug/sphere.obj",
+		"position": [ 12, -0.25, -4 ],
+		"scale": 0.75
 	},{
 		"material": {
 			"diffuseMap": "textures/stone-floor-03.jpg",
 			"specularMap": "textures/specular/stone-floor-03.jpg",
 			"normalMap": "textures/normal/stone-floor-03.jpg",
-			"uvRepeat": 2
+			"uvRepeat": 1
 		},
-		"geometry": "debug/plane.obj",
-		"position": [ 14, 0, -4 ],
-		"scale": 2
+		"geometry": "debug/sphere.obj",
+		"position": [ 14, -0.25, -4 ],
+		"scale": 0.75
 	},{
 		"material": {
 			"diffuseMap": "textures/stone-floor-04.jpg",
 			"specularMap": "textures/specular/stone-floor-04.jpg",
 			"normalMap": "textures/normal/stone-floor-04.jpg",
-			"uvRepeat": 2
+			"uvRepeat": 1
 		},
-		"geometry": "debug/plane.obj",
-		"position": [ 0, 0, -2 ],
-		"scale": 2
+		"geometry": "debug/sphere.obj",
+		"position": [ 0, -0.25, -2 ],
+		"scale": 0.75
 	},{
 		"material": {
 			"diffuseMap": "textures/stone-floor-05.jpg",
 			"specularMap": "textures/specular/stone-floor-05.jpg",
 			"normalMap": "textures/normal/stone-floor-05.jpg",
-			"uvRepeat": 2
+			"uvRepeat": 1
 		},
-		"geometry": "debug/plane.obj",
-		"position": [ 2, 0, -2 ],
-		"scale": 2
+		"geometry": "debug/sphere.obj",
+		"position": [ 2, -0.25, -2 ],
+		"scale": 0.75
 	},{
 		"material": {
 			"diffuseMap": "textures/stone-floor-06.jpg",
 			"specularMap": "textures/specular/stone-floor-06.jpg",
 			"normalMap": "textures/normal/stone-floor-06.jpg",
-			"uvRepeat": 2
+			"uvRepeat": 1
 		},
-		"geometry": "debug/plane.obj",
-		"position": [ 4, 0, -2 ],
-		"scale": 2
+		"geometry": "debug/sphere.obj",
+		"position": [ 4, -0.25, -2 ],
+		"scale": 0.75
 	},{
 		"material": {
 			"diffuseMap": "textures/tiles-01.jpg",
@@ -489,11 +489,11 @@
 			"normalMap": "textures/normal/tiles-01.jpg",
 			"heightMap": "textures/height/tiles-01.png",
 			"parallax": 0.03,
-			"uvRepeat": 2
+			"uvRepeat": 1
 		},
-		"geometry": "debug/plane.obj",
-		"position": [ 6, 0, -2 ],
-		"scale": 2
+		"geometry": "debug/sphere.obj",
+		"position": [ 6, -0.25, -2 ],
+		"scale": 0.75
 	},{
 		"material": {
 			"diffuseMap": "textures/tiles-02.jpg",
@@ -501,11 +501,11 @@
 			"normalMap": "textures/normal/tiles-02.jpg",
 			"heightMap": "textures/height/tiles-02.png",
 			"parallax": 0.03,
-			"uvRepeat": 2
+			"uvRepeat": 1
 		},
-		"geometry": "debug/plane.obj",
-		"position": [ 8, 0, -2 ],
-		"scale": 2
+		"geometry": "debug/sphere.obj",
+		"position": [ 8, -0.25, -2 ],
+		"scale": 0.75
 	},{
 		"material": {
 			"diffuseMap": "textures/tiles-03.jpg",
@@ -513,20 +513,20 @@
 			"normalMap": "textures/normal/tiles-03.jpg",
 			"heightMap": "textures/height/tiles-03.png",
 			"parallax": 0.03,
-			"uvRepeat": 2
+			"uvRepeat": 1
 		},
-		"geometry": "debug/plane.obj",
-		"position": [ 10, 0, -2 ],
-		"scale": 2
+		"geometry": "debug/sphere.obj",
+		"position": [ 10, -0.25, -2 ],
+		"scale": 0.75
 	},{
 		"material": {
 			"diffuseMap": "textures/wood-floor-01.jpg",
 			"specularMap": "textures/specular/wood-floor-01.jpg",
 			"normalMap": "textures/normal/wood-floor-01.jpg",
-			"uvRepeat": 2
+			"uvRepeat": 1
 		},
-		"geometry": "debug/plane.obj",
-		"position": [ 12, 0, -2 ],
-		"scale": 2
+		"geometry": "debug/sphere.obj",
+		"position": [ 12, -0.25, -2 ],
+		"scale": 0.75
 	}
 ]}

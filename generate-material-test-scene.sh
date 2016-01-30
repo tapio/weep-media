@@ -45,11 +45,11 @@ EOF
 	fi
 
 cat << EOF >> "$FILE"
-			"uvRepeat": 2
+			"uvRepeat": 1
 		},
-		"geometry": "debug/plane.obj",
-		"position": [ $X, 0, $Y ],
-		"scale": 2
+		"geometry": "debug/sphere.obj",
+		"position": [ $X, -0.25, $Y ],
+		"scale": 0.75
 	},{
 EOF
 	if [ $X -gt 12 ]; then
