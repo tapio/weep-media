@@ -21,14 +21,6 @@
 				"alphaTest": true
 			},
 			"geometry": "debug/plane.obj"
-		},
-		"asteroid": {
-			"material": {
-				"diffuseMap": "sprites/space-shooter/Meteors/meteorBrown_big1.png",
-				"ambient": 1,
-				"alphaTest": true
-			},
-			"geometry": "debug/plane.obj"
 		}
 	},
 	"objects": [{
@@ -38,9 +30,6 @@
 	},{
 		"prefab": "player",
 		"name": "player"
-	},{
-		"prefab": "asteroid",
-		"position": [5, 0, 0]
 	}
 	]
 }
