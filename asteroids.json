@@ -7,6 +7,12 @@
 		}
 	},
 	"sounds": {
+		"laser": [
+			"sounds/digital/laser1.ogg",
+			"sounds/digital/laser2.ogg",
+			"sounds/digital/laser3.ogg",
+			"sounds/digital/laser4.ogg"
+		]
 	},
 	"environment": {
 		"sunColor": [ 0.0, 0.0, 0.0 ],
