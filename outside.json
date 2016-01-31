@@ -12,7 +12,7 @@
 				"ambient": [ 0.01, 0.01, 0.01 ],
 				"shininess": 32
 			},
-			"geometry": { "heightmap": "heightmap.png" },
+			"geometry": "heightmap.png" ,
 			"body": {
 				"shape": "box",
 				"mass": 0

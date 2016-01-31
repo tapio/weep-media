@@ -47,7 +47,11 @@ EOF
 cat << EOF >> "$FILE"
 			"uvRepeat": 1
 		},
-		"geometry": "debug/sphere.obj",
+		"geometry": [
+			{ "debug/sphere_hi.obj": 5.0 },
+			{ "debug/sphere.obj": 20.0 },
+			{ "debug/sphere_lo.obj": 1e999 }
+		],
 		"position": [ $X, -0.25, $Y ],
 		"scale": 0.75
 	},{
