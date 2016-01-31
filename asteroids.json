@@ -1,0 +1,46 @@
+{
+	"modules": [ "asteroids" ],
+	"fonts": {
+		"asteroids_big": {
+			"path": "fonts/Orbitron-Black.ttf",
+			"size": 36
+		}
+	},
+	"sounds": {
+	},
+	"environment": {
+		"sunColor": [ 0.0, 0.0, 0.0 ],
+		"sunPosition": [ 0, 1, 0 ],
+		"bloomThreshold": 0
+	},
+	"prefabs": {
+		"player": {
+			"material": {
+				"diffuseMap": "sprites/space-shooter/playerShip1_blue.png",
+				"ambient": 1,
+				"alphaTest": true
+			},
+			"geometry": "debug/plane.obj"
+		},
+		"asteroid": {
+			"material": {
+				"diffuseMap": "sprites/space-shooter/Meteors/meteorBrown_big1.png",
+				"ambient": 1,
+				"alphaTest": true
+			},
+			"geometry": "debug/plane.obj"
+		}
+	},
+	"objects": [{
+		"name": "camera",
+		"position": [ 0, 10, 0 ],
+		"rotation": [ -1.5707963, 0, 0 ]
+	},{
+		"prefab": "player",
+		"name": "player"
+	},{
+		"prefab": "asteroid",
+		"position": [5, 0, 0]
+	}
+	]
+}
