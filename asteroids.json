@@ -12,6 +12,10 @@
 			"sounds/digital/laser2.ogg",
 			"sounds/digital/laser3.ogg",
 			"sounds/digital/laser4.ogg"
+		],
+		"hit": [
+			"sounds/8-bit/hit_01.ogg",
+			"sounds/8-bit/hit_02.ogg"
 		]
 	},
 	"environment": {
