@@ -1,0 +1,13 @@
+{
+	"material": {
+		"diffuseMap": "objects/crates/diffuse.jpg",
+		"normalMap": "objects/crates/normal.jpg",
+		"specularMap": "objects/crates/specular.jpg",
+		"shininess": 32
+	},
+	"geometry": "objects/crates/bucket.obj",
+	"body": {
+		"shape": "cylinder",
+		"mass": 2
+	}
+}
