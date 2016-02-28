@@ -4,6 +4,10 @@
 		"asteroids_big": {
 			"path": "fonts/Orbitron-Black.ttf",
 			"size": 36
+		},
+		"asteroids_hud": {
+			"path": "fonts/Orbitron-Black.ttf",
+			"size": 24
 		}
 	},
 	"sounds": {
