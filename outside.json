@@ -2,8 +2,10 @@
 	"include": [ "prefabs.json", "environment.json" ],
 	"objects": [
 		{
-			"prefab": "camera"
+			"prefab": "camera",
+			"position": [ 0, 1.5, 0 ]
 		},{
+			"name": "terrain",
 			"material": {
 				"diffuseMap": "textures/moss-01.jpg",
 				"specularMap": "textures/specular/moss-01.jpg",
@@ -14,7 +16,7 @@
 			},
 			"geometry": "heightmap.png" ,
 			"body": {
-				"shape": "box",
+				"shape": "trimesh",
 				"mass": 0
 			},
 			"position": [ 0, -0.5, -10 ],
